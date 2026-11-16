@@ -1,0 +1,290 @@
+[
+  {
+    "file": "code/AM/data/tsp/uniform_size_100_seed_12345_tsp.pt",
+    "problem": "tsp",
+    "size": 100,
+    "instances": 10000,
+    "shape": [
+      10000,
+      100,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "c2553cc34073c6a1293b6c032f84c96f894509230f93a604277e5c3a02b2aec7",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/AM/data/tsp/uniform_size_20_seed_12345_tsp.pt",
+    "problem": "tsp",
+    "size": 20,
+    "instances": 10000,
+    "shape": [
+      10000,
+      20,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "d567953e9615c4866ce01f2ed52fa2f12115d0cd3d1c3cd4ee2cd4b3943cf141",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/AM/data/tsp/uniform_size_50_seed_12345_tsp.pt",
+    "problem": "tsp",
+    "size": 50,
+    "instances": 10000,
+    "shape": [
+      10000,
+      50,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "bf1760a6e4772f56de96ee77bd066df17aaa6c12bb7d0b456bd6775f666055d8",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/AM/data/vrp/uniform_size_100_seed_12345_cvrp.pt",
+    "problem": "cvrp",
+    "size": 100,
+    "instances": 10000,
+    "shape": [
+      10000,
+      101,
+      3
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "a7fe8711e8002284cfe522ee944ee99317f30b02270a3c3cc98edc89fa7f1caf",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/AM/data/vrp/uniform_size_20_seed_12345_cvrp.pt",
+    "problem": "cvrp",
+    "size": 20,
+    "instances": 10000,
+    "shape": [
+      10000,
+      21,
+      3
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "8cab52620e475562a648f5eb8c5715817f6d2a73909134901d0566a33ff4d340",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/AM/data/vrp/uniform_size_50_seed_12345_cvrp.pt",
+    "problem": "cvrp",
+    "size": 50,
+    "instances": 10000,
+    "shape": [
+      10000,
+      51,
+      3
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "00863c3820b84e43c3eba1218613dda3a92df8a2a2355a582103a43f2f1e6d90",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/cvrp/uniform_size_100_seed_12345_cvrp.pt",
+    "problem": "cvrp",
+    "size": 100,
+    "instances": 10000,
+    "shape": [
+      10000,
+      101,
+      3
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "a7fe8711e8002284cfe522ee944ee99317f30b02270a3c3cc98edc89fa7f1caf",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/cvrp/uniform_size_20_seed_12345_cvrp.pt",
+    "problem": "cvrp",
+    "size": 20,
+    "instances": 10000,
+    "shape": [
+      10000,
+      21,
+      3
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "8cab52620e475562a648f5eb8c5715817f6d2a73909134901d0566a33ff4d340",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/cvrp/uniform_size_50_seed_12345_cvrp.pt",
+    "problem": "cvrp",
+    "size": 50,
+    "instances": 10000,
+    "shape": [
+      10000,
+      51,
+      3
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "00863c3820b84e43c3eba1218613dda3a92df8a2a2355a582103a43f2f1e6d90",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/tsp/uniform_size_100_seed_12345_tsp.pt",
+    "problem": "tsp",
+    "size": 100,
+    "instances": 10000,
+    "shape": [
+      10000,
+      100,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "c2553cc34073c6a1293b6c032f84c96f894509230f93a604277e5c3a02b2aec7",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/tsp/uniform_size_20_seed_12345_tsp.pt",
+    "problem": "tsp",
+    "size": 20,
+    "instances": 10000,
+    "shape": [
+      10000,
+      20,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "d567953e9615c4866ce01f2ed52fa2f12115d0cd3d1c3cd4ee2cd4b3943cf141",
+    "source": "saved validation set"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/tsp/uniform_size_50_seed_12345_tsp.pt",
+    "problem": "tsp",
+    "size": 50,
+    "instances": 10000,
+    "shape": [
+      10000,
+      50,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 12345,
+    "sha256": "bf1760a6e4772f56de96ee77bd066df17aaa6c12bb7d0b456bd6775f666055d8",
+    "source": "saved validation set"
+  },
+  {
+    "file": "datasets/generalization/formal/tsp100.pt",
+    "problem": "tsp",
+    "size": 100,
+    "instances": 1000,
+    "shape": [
+      1000,
+      100,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 20261206,
+    "sha256": "da6af22c1e4cbefb640afcc639d8c422226a0fc1cfce02d2094b6e44d31d7091",
+    "source": "saved 2026-11-06 generalization test set"
+  },
+  {
+    "file": "datasets/generalization/formal/tsp200.pt",
+    "problem": "tsp",
+    "size": 200,
+    "instances": 1000,
+    "shape": [
+      1000,
+      200,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 20261306,
+    "sha256": "75dc8ce5e21ab217f456d5f3497eb3545aad1de2bdd0aef17033b37d75fa8c88",
+    "source": "saved 2026-11-06 generalization test set"
+  },
+  {
+    "file": "datasets/generalization/formal/tsp500.pt",
+    "problem": "tsp",
+    "size": 500,
+    "instances": 1000,
+    "shape": [
+      1000,
+      500,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 20261606,
+    "sha256": "9b64f0889c6b91ce082e630fe379bf3790ab036c048e1edf0343f4aca7de5f0e",
+    "source": "saved 2026-11-06 generalization test set"
+  },
+  {
+    "file": "datasets/generalization/smoke/tsp100.pt",
+    "problem": "tsp",
+    "size": 100,
+    "instances": 10,
+    "shape": [
+      10,
+      100,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 21261206,
+    "sha256": "f97a3e786db5ad289eee9cd56e0e231a61be12ac35b95839b2c87566ac57834d",
+    "source": "saved 2026-11-06 generalization test set"
+  },
+  {
+    "file": "datasets/generalization/smoke/tsp200.pt",
+    "problem": "tsp",
+    "size": 200,
+    "instances": 10,
+    "shape": [
+      10,
+      200,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 21261306,
+    "sha256": "3bfb7f8469fbaa0720ee2fbe5209a5b5bf918b6438bffe21a584a50310a16c1d",
+    "source": "saved 2026-11-06 generalization test set"
+  },
+  {
+    "file": "datasets/generalization/smoke/tsp500.pt",
+    "problem": "tsp",
+    "size": 500,
+    "instances": 10,
+    "shape": [
+      10,
+      500,
+      2
+    ],
+    "dtype": "torch.float32",
+    "format": "torch tensor",
+    "seed": 21261606,
+    "sha256": "1397bdb8556282a5b693ec5636898503e15c18e1ac066c6ff5202e6b7d78ae33",
+    "source": "saved 2026-11-06 generalization test set"
+  }
+]

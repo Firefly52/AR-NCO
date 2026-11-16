@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "POMO_CVRP100_Post_AR",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "post_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP100/POMO_CVRP100_Post_AR/weights.pt",
+    "sha256": "00246baacd525def9e6071b32fe13c8e9c7504472cf9703b2984600b364e7d1c",
+    "source_sha256": "f128aeb213ee2f54ef0de43c4094d2e6543286241e0360890db677febeb48401",
+    "model_module": "CVRPModelPostAR",
+    "model_config": "configs/models/POMO_CVRP100_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_036.json",
+      "configs/history/run_008.json",
+      "configs/history/run_001.json",
+      "configs/history/run_045.json",
+      "configs/history/run_011.json",
+      "configs/history/run_012.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP100_Baseline",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "baseline",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP100/POMO_CVRP100_Baseline/weights.pt",
+    "sha256": "2b01c4643aec48acefebf7e416a88503b0fe87b89b981820c81b9118534a8e8c",
+    "source_sha256": "0269cb25ed7a37162d921d76e212e626a94602e88eeacd5757f513dc2218dac7",
+    "model_module": "CVRPModel",
+    "model_config": "configs/models/POMO_CVRP100_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_017.json",
+      "configs/history/run_002.json",
+      "configs/history/run_019.json",
+      "configs/history/run_010.json",
+      "configs/history/run_042.json",
+      "configs/history/run_013.json",
+      "configs/history/run_009.json",
+      "configs/history/run_046.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP100_Full_AR",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "full_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP100/PO_CVRP100_Full_AR/weights.pt",
+    "sha256": "bb3ff9fcec9f68796272095d151580e71bdef5f005077466e620ebaab2196cee",
+    "source_sha256": "f13df853e581a9253bf0d514b8d477fe0e08e4bdc2982e2687c607005e700933",
+    "model_module": "CVRPModelFullAR",
+    "model_config": "configs/models/PO_CVRP100_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_038.json",
+      "configs/history/run_004.json",
+      "configs/history/run_032.json",
+      "configs/history/run_025.json",
+      "configs/history/run_039.json",
+      "configs/history/run_021.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP100_Baseline",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "baseline",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP100/PO_CVRP100_Baseline/weights.pt",
+    "sha256": "99bcac8c53b2450042b86bc833a34beedd11dbd993f2326757534f06d5cd5df4",
+    "source_sha256": "e2d477d40e8907edfc4168b253d4e440481f9c7d169f676e4c0596723e2381af",
+    "model_module": "CVRPModel",
+    "model_config": "configs/models/PO_CVRP100_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_022.json",
+      "configs/history/run_029.json",
+      "configs/history/run_030.json",
+      "configs/history/run_031.json",
+      "configs/history/run_033.json",
+      "configs/history/run_026.json",
+      "configs/history/run_023.json",
+      "configs/history/run_005.json",
+      "configs/history/run_024.json",
+      "configs/history/run_040.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP100_Post_AR",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "post_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP100/PO_CVRP100_Post_AR/weights.pt",
+    "sha256": "b63812c671d982a0a677920fc82fd4fddfa3c5078665c5f7ceb3578a6f191c12",
+    "source_sha256": "6ceb3ef7b8f462b9d3b204093aeb9218883754ba68fe2116c025b21c7c22951b",
+    "model_module": "CVRPModelPostAR",
+    "model_config": "configs/models/PO_CVRP100_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_034.json",
+      "configs/history/run_035.json",
+      "configs/history/run_041.json",
+      "configs/history/run_037.json",
+      "configs/history/run_006.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP100_Full_AR",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "full_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP100/POMO_CVRP100_Full_AR/weights.pt",
+    "sha256": "067c25de4e201890785b6517ea18ab073c0dc1c9cb68c6f620b3874669a81231",
+    "source_sha256": "94590ed2ef862219636aa5cfd80fe0c7d08bcf789b1e42fdf49958a172f2541f",
+    "model_module": "CVRPModelFullAR",
+    "model_config": "configs/models/POMO_CVRP100_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_044.json",
+      "configs/history/run_007.json",
+      "configs/history/run_043.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP50_Baseline",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "baseline",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP50/PO_CVRP50_Baseline/weights.pt",
+    "sha256": "379bb35e8a07b78bdc5a757dbcde0adccad775bf0cdcef9f60cfd4956d22265c",
+    "source_sha256": "f8600bc650049a1f4ce806b349373fb7495396fb67400e937a677422b9414919",
+    "model_module": "CVRPModel",
+    "model_config": "configs/models/PO_CVRP50_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_047.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP50_Baseline",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "baseline",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP50/POMO_CVRP50_Baseline/weights.pt",
+    "sha256": "d465396a07da44a017312d2e21d18ad80aa518e64b045e0931968eef194827f4",
+    "source_sha256": "194be2efcbe275d4184dc0d1807efe3eefffebb37e80cc4e3b3292b0e2fed40b",
+    "model_module": "CVRPModel",
+    "model_config": "configs/models/POMO_CVRP50_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_048.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP50_Full_AR",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "full_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP50/POMO_CVRP50_Full_AR/weights.pt",
+    "sha256": "3b686c5e35b5a3af4d43f7045d34c85118fb14bc2667754708585007708249a5",
+    "source_sha256": "1707a89feb493631195329de8d575c44125d051a4be669d06db7b6039718b201",
+    "model_module": "CVRPModelFullAR",
+    "model_config": "configs/models/POMO_CVRP50_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_049.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP50_Full_AR",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "full_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP50/PO_CVRP50_Full_AR/weights.pt",
+    "sha256": "0d590a160851b752a4d1ce74db773575dfac2e19dfb8b4a58a2794a1f9ee6275",
+    "source_sha256": "3ba2456a8a09505fa8a1338fb37f6a8751685cb5f0d90e870a7f5c4609b894eb",
+    "model_module": "CVRPModelFullAR",
+    "model_config": "configs/models/PO_CVRP50_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_050.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP50_Post_AR",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "post_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP50/POMO_CVRP50_Post_AR/weights.pt",
+    "sha256": "aec15a99b1cbf37fc406cf71d475eb802659294fd9fdd97795c306cb6d4043eb",
+    "source_sha256": "03fc0f7026aaa42dfabcea9f5b6c39093ef35f1667461927b1d49ad418068745",
+    "model_module": "CVRPModelPostAR",
+    "model_config": "configs/models/POMO_CVRP50_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_051.json",
+      "configs/history/run_054.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP50_Post_AR",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "post_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP50/PO_CVRP50_Post_AR/weights.pt",
+    "sha256": "d3f1e2103297b4e9d383ebfac8e1536f26b027822503cc33255ff825a8f2b207",
+    "source_sha256": "59379113f4c95704dbb14e5f403e35a844d1b8421c10c49e44c0943975b3a312",
+    "model_module": "CVRPModelPostAR",
+    "model_config": "configs/models/PO_CVRP50_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_052.json",
+      "configs/history/run_053.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP20_Baseline",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "baseline",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP20/PO_CVRP20_Baseline/weights.pt",
+    "sha256": "9c0eb945dddf378d7dd2e84fa7a24368ed9b5e07c81352cb334dcbafd1177a45",
+    "source_sha256": "2b35e7d5806760b37869b93f807df7373a421136ddcbfe9161539da26364e70f",
+    "model_module": "CVRPModel",
+    "model_config": "configs/models/PO_CVRP20_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_055.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP20_Full_AR",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "full_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP20/PO_CVRP20_Full_AR/weights.pt",
+    "sha256": "1e153b31f69ea1a7d70c0039d73fbe55a01f27e7f387ad4525ad5fa1b0d7df60",
+    "source_sha256": "5e43e80ed48f18685581e319585da1ceb76089f5b9fef71e76b92a643853d2c0",
+    "model_module": "CVRPModelFullAR",
+    "model_config": "configs/models/PO_CVRP20_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_056.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP20_Full_AR",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "full_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP20/POMO_CVRP20_Full_AR/weights.pt",
+    "sha256": "1ee54ea56aa6e65e75a0d750850e3eb620d5095a0fd65e6eb35c545c6d5146b4",
+    "source_sha256": "b94f234fb6759eea8fef5a5e57759e82aaf7a872ac7b5a72c571cf1d8d721456",
+    "model_module": "CVRPModelFullAR",
+    "model_config": "configs/models/POMO_CVRP20_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_057.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_CVRP20_Post_AR",
+    "solver": "PO",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "post_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/CVRP20/PO_CVRP20_Post_AR/weights.pt",
+    "sha256": "bdf5f3c1ad604ef253e15c98fc6d8c33443b8975a5508bfd97d788fcd700e8f8",
+    "source_sha256": "029336eed1fb031905f814f9b08b6cb682e54bc6c34ccb0c771c6e5991f9fe71",
+    "model_module": "CVRPModelPostAR",
+    "model_config": "configs/models/PO_CVRP20_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_058.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP20_Baseline",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "baseline",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP20/POMO_CVRP20_Baseline/weights.pt",
+    "sha256": "986df1d27ee8bf64afd7dc17b10f38c377d838c5254ddd9c75eb82cbbff24ca4",
+    "source_sha256": "5266f358eff13791217b3d9f55fffdd506aa952a81b8f7dd813798adab5f3f63",
+    "model_module": "CVRPModel",
+    "model_config": "configs/models/POMO_CVRP20_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_059.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_CVRP20_Post_AR",
+    "solver": "POMO",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "post_ar",
+    "epoch": 1000,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/CVRP20/POMO_CVRP20_Post_AR/weights.pt",
+    "sha256": "8c1a937b7e542c9e7ee847ab9792ca205347606f8bc6eb2f661888ba40a4fa50",
+    "source_sha256": "dcc80892b897e14a75d2d6acac07505f6ed5c91d30cc7495b19cbdb10eea0852",
+    "model_module": "CVRPModelPostAR",
+    "model_config": "configs/models/POMO_CVRP20_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_060.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP100_Baseline",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "baseline",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP100/PO_TSP100_Baseline/weights.pt",
+    "sha256": "f86b32ef0daede1685737b86efc2c94c7492e723aeaad32ba9c453b45c0158f3",
+    "source_sha256": "1d3dbec1304c2962eeee7265c88ac8f73163c8c266860348c14d9f730f536bfa",
+    "model_module": "TSPModel",
+    "model_config": "configs/models/PO_TSP100_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_103.json",
+      "configs/history/run_133.json",
+      "configs/history/run_185.json",
+      "configs/history/run_062.json",
+      "configs/history/run_184.json",
+      "configs/history/run_170.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP100_Baseline",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "baseline",
+    "epoch": 510,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Baseline/weights.pt",
+    "sha256": "10477aac5080133bd7ddd6a9105b9d39cabeff9e1398d24738e028421fcf7fac",
+    "source_sha256": "b03049a4ab9ebd5bb9d37b430fe589aff6638de2f6402c9dbe0bd049866a5ad9",
+    "model_module": "TSPModel",
+    "model_config": "configs/models/POMO_TSP100_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_063.json",
+      "configs/history/run_114.json",
+      "configs/history/run_109.json",
+      "configs/history/run_116.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP100_Post_AR",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "post_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP100/PO_TSP100_Post_AR/weights.pt",
+    "sha256": "79d01651911d44485b7645df83e0cd3cb5a534e9a4d6909354706caa4cf87724",
+    "source_sha256": "cb4660c0a89423b12118338d37790269d6ec7bb32519c00ca79bf3fe6e01590b",
+    "model_module": "TSPModelPostAR",
+    "model_config": "configs/models/PO_TSP100_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_064.json",
+      "configs/history/run_186.json",
+      "configs/history/run_169.json",
+      "configs/history/run_182.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP100_Full_AR",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP100/PO_TSP100_Full_AR/weights.pt",
+    "sha256": "e558c72eb7932e9659311a23f85964ccea3e201512be6de10afa8e8c1e5a85c8",
+    "source_sha256": "cccd0e1682d1acaed87dfa4bc32ec9b3d5bafb94a9d08dbf6e78f2833a37267d",
+    "model_module": "TSPModelFullARLegacy",
+    "model_config": "configs/models/PO_TSP100_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_189.json",
+      "configs/history/run_205.json",
+      "configs/history/run_066.json",
+      "configs/history/run_188.json",
+      "configs/history/run_201.json",
+      "configs/history/run_204.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP100_Full_AR_Run01",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Full_AR_Run01/weights.pt",
+    "sha256": "217d9c7ee32e4f9b783b0bf4161664ebcb70794f8a61673fe795f4204df1ae01",
+    "source_sha256": "bf5f48ed9d39ffc5fa0ae49216d6fd931c18763d0b02a78b1d134ce4f488247b",
+    "model_module": "TSPModelFullARLegacy",
+    "model_config": "configs/models/POMO_TSP100_Full_AR_Run01.json",
+    "training_configurations": [
+      "configs/history/run_202.json",
+      "configs/history/run_190.json",
+      "configs/history/run_067.json",
+      "configs/history/run_206.json",
+      "configs/history/run_203.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP100_Post_AR_Run01",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "post_ar",
+    "epoch": 60,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Post_AR_Run01/weights.pt",
+    "sha256": "ebc97ad47cb4c5f432c2d3cae03ca8f40125149e4871b5eedc1971372e64a295",
+    "source_sha256": "484e743877eb17d4232f82a3e84ac3d3bbd773f6d629be91ec44f366692d896b",
+    "model_module": "TSPModelPostAR",
+    "model_config": "configs/models/POMO_TSP100_Post_AR_Run01.json",
+    "training_configurations": [
+      "configs/history/run_128.json",
+      "configs/history/run_130.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP50_Baseline",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "baseline",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Baseline/weights.pt",
+    "sha256": "60a4da5620627e051b5838a5a60f52589178cf1a49bcd6b3cff75005ddf65db5",
+    "source_sha256": "ceb6568b21b32fb4476a92fe8857a1160a6d4021f448df4d544e65be4dee6a58",
+    "model_module": "TSPModel",
+    "model_config": "configs/models/POMO_TSP50_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_207.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP20_Baseline",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "baseline",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Baseline/weights.pt",
+    "sha256": "3ca5d814fc0e0384cb85b8d68c820a93d73f07e470e74d41389699a3027450f1",
+    "source_sha256": "19e01f7bd1f4701c8e86b29cbd8cd0fc266b8939ce9473960f4eab8ec18511c0",
+    "model_module": "TSPModel",
+    "model_config": "configs/models/POMO_TSP20_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_208.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP20_Baseline",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "baseline",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP20/PO_TSP20_Baseline/weights.pt",
+    "sha256": "5e495bc63929c41a03da3908b749553a6656c333f0f4341da24010a05b5178ff",
+    "source_sha256": "6c16fac44c88a765d7168eca877eb5ff28c3b0f689460c10032fe064f29a06ab",
+    "model_module": "TSPModel",
+    "model_config": "configs/models/PO_TSP20_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_209.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP20_Full_AR_Run01",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Full_AR_Run01/weights.pt",
+    "sha256": "59bcf5c54d33bfa3d67d6b23da046df155a33d9466e925e962a0dc6bfa7c116a",
+    "source_sha256": "697d6e460d1e0915e76f98e3deb919656c11384990b19ea9b450731795d315eb",
+    "model_module": "TSPModelFullAR",
+    "model_config": "configs/models/POMO_TSP20_Full_AR_Run01.json",
+    "training_configurations": [
+      "configs/history/run_210.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP20_Post_AR",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "post_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Post_AR/weights.pt",
+    "sha256": "3284d2b6aa14a5395f6f977ea1d8f7f572d64475215eb1aa2a4089981077f2f5",
+    "source_sha256": "1ff3efa7ae652f50cd3c609f5afde4e0d20ecbd0f0e175574bb8fb63171df992",
+    "model_module": "TSPModelPostAR",
+    "model_config": "configs/models/POMO_TSP20_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_211.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP20_Full_AR",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP20/PO_TSP20_Full_AR/weights.pt",
+    "sha256": "fb484d586ba1190012d96b27570967250ea12fd6eeb88eed4c5263bfd010581d",
+    "source_sha256": "3e72f3d742b7370a1abf4426c7d68d9159b1b5e85226ca312917128dcaf2237e",
+    "model_module": "TSPModelFullAR",
+    "model_config": "configs/models/PO_TSP20_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_212.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP20_Post_AR",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "post_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP20/PO_TSP20_Post_AR/weights.pt",
+    "sha256": "52c79fe946909d718ee857535113a5a7832987bbab1cf09e9d06b266859c6356",
+    "source_sha256": "0557318b72f12c9622213b257b85504fb136122ea9b83b64d37255470e57f32d",
+    "model_module": "TSPModelPostAR",
+    "model_config": "configs/models/PO_TSP20_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_213.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP50_Post_AR",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "post_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Post_AR/weights.pt",
+    "sha256": "4c7d7b91b287880aae6a378c098b7204838c05a3896e6c7f45f14c8ed8f81a46",
+    "source_sha256": "0b144a42bb6b200ce1338bb80dd29b81086e137e824ec891ce212a7ddfcadc90",
+    "model_module": "TSPModelPostAR",
+    "model_config": "configs/models/POMO_TSP50_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_214.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP50_Full_AR_Run01",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Full_AR_Run01/weights.pt",
+    "sha256": "8ea4988642bee5e08063d8193ad5be12aa3f0c0c69c801c16bcf4fa58d8b5dc0",
+    "source_sha256": "a39c23ee720593e9458ebea44f39d418affa337734e86e888d7397ae6e885170",
+    "model_module": "TSPModelFullAR",
+    "model_config": "configs/models/POMO_TSP50_Full_AR_Run01.json",
+    "training_configurations": [
+      "configs/history/run_215.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP50_Baseline",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "baseline",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP50/PO_TSP50_Baseline/weights.pt",
+    "sha256": "3a203511691190e9bcdccd5b9ca4038af8b46058b8375b53398c7b440edd2de9",
+    "source_sha256": "6d5835ebaf31aa8d37cd5625dc8d261cdf3f90715b383e0e8873ca44d1031ae4",
+    "model_module": "TSPModel",
+    "model_config": "configs/models/PO_TSP50_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_216.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP50_Full_AR",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP50/PO_TSP50_Full_AR/weights.pt",
+    "sha256": "f5bbcc01a20fab3d284bfda60a07f1428634bc016d086320548fe299c707db5e",
+    "source_sha256": "db8d3dc9ff7dc5fdb668edc484cf3d4ecceb6d3b29fedbbe0b996b52d8d1f3d2",
+    "model_module": "TSPModelFullAR",
+    "model_config": "configs/models/PO_TSP50_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_217.json",
+      "configs/history/run_218.json",
+      "configs/history/run_219.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "PO_TSP50_Post_AR",
+    "solver": "PO",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "post_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/PO/TSP50/PO_TSP50_Post_AR/weights.pt",
+    "sha256": "cab43872ee542486124612d30b58c0f830652e556e33dab66ad3d1fdd3c85c56",
+    "source_sha256": "323d276cee69129d3ff1288a96946ddd907eba684a7e64cd52fc75ade0b947f6",
+    "model_module": "TSPModelPostAR",
+    "model_config": "configs/models/PO_TSP50_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_220.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP100_Post_AR_Run02",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "post_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Post_AR_Run02/weights.pt",
+    "sha256": "623c9147ae1b2c311699997a711d4bf8a2b1d1cc416c2028043967fe9a1253c9",
+    "source_sha256": "883a52f7032fae525f8c5bc0b94c9b058af52e01c3bdaf0a693c77140c154e41",
+    "model_module": "TSPModelPostAR",
+    "model_config": "configs/models/POMO_TSP100_Post_AR_Run02.json",
+    "training_configurations": [
+      "configs/history/run_227.json",
+      "configs/history/run_232.json",
+      "configs/history/run_231.json",
+      "configs/history/run_233.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP100_Full_AR_Run02",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Full_AR_Run02/weights.pt",
+    "sha256": "d673f8966720897646339e97e31e688bf925667a54832ad8094ebbeb0df4c956",
+    "source_sha256": "45b54dfb94edd4b54671648d79a87278ffbec2696fc95d73f5cb389a8f151e28",
+    "model_module": "TSPModelFullAR",
+    "model_config": "configs/models/POMO_TSP100_Full_AR_Run02.json",
+    "training_configurations": [
+      "configs/history/run_236.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP20_Full_AR_Run02",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Full_AR_Run02/weights.pt",
+    "sha256": "eafa987c1ae779cedeceb6821279b487b15d62e27d68f5475c188b70089541b5",
+    "source_sha256": "6403ed5e80051ef5e8b1fe0c3ca233094aa039dde84abe09df2ad805fed7d6ad",
+    "model_module": "TSPModelFullAR",
+    "model_config": "configs/models/POMO_TSP20_Full_AR_Run02.json",
+    "training_configurations": [
+      "configs/history/run_237.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP50_Full_AR_Run02",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "full_ar",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Full_AR_Run02/weights.pt",
+    "sha256": "80feb1142845ed8469d246058b19b7e07d2fb76ab2d4bc5c62bf587f3a0f7f12",
+    "source_sha256": "2c1bf1936af10c651cf383e521fa7c8b8583d03094f5ad8177f1ec2b72413c4f",
+    "model_module": "TSPModelFullAR",
+    "model_config": "configs/models/POMO_TSP50_Full_AR_Run02.json",
+    "training_configurations": [
+      "configs/history/run_238.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP100_Baseline",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "baseline",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Baseline/weights.pt",
+    "sha256": "c2976529d9f8c922ab73eba25475381bc9207047e55e16acaaf3b2252461a760",
+    "source_sha256": "51a094dbe49b068a01a03251418015da01ddbe8bae63e33b2b4026b821b6df12",
+    "model_module": "nets.attention_model",
+    "model_config": "configs/models/AM_CVRP100_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_252.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP100_Post_AR",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "post_ar",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Post_AR/weights.pt",
+    "sha256": "49ed1de3a87e5df26610c6aa0f745783499c54d4c20c065052d83090997a91f6",
+    "source_sha256": "9a831cbf0660d8f7a92060cb3f546c958b594622b1036eada35e0f2b820f3c2d",
+    "model_module": "nets.attention_model_post_ar",
+    "model_config": "configs/models/AM_CVRP100_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_253.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP100_Full_AR",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 100,
+    "variant": "full_ar",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Full_AR/weights.pt",
+    "sha256": "3317aa3e36af747d3943d563e3a0c1d66145049d96287cce11e0335a4073bcfa",
+    "source_sha256": "9a3ab75bb4d6cba15d577b64f66f413d476898afe80b77296cf28492cdc83a9e",
+    "model_module": "nets.attention_model_full_ar",
+    "model_config": "configs/models/AM_CVRP100_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_254.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP20_Baseline",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "baseline",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Baseline/weights.pt",
+    "sha256": "0025ebd484955f77962595d6384b913b527874dc54f3ec40518f4f9c1049ff9f",
+    "source_sha256": "6c30263ca9b8b194811a280dbd16f6fc418bf1505341c6ed0e177cf231197296",
+    "model_module": "nets.attention_model",
+    "model_config": "configs/models/AM_CVRP20_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_255.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP20_Post_AR",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "post_ar",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Post_AR/weights.pt",
+    "sha256": "65379cf874527d1081d213fe35d8833affe79162208d715e34e607b1eb2f3574",
+    "source_sha256": "6c593c0a0b1216fe1c4ae77d42ca29e23cab55f333225c90647c33f5133cc49f",
+    "model_module": "nets.attention_model_post_ar",
+    "model_config": "configs/models/AM_CVRP20_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_256.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP20_Full_AR",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 20,
+    "variant": "full_ar",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Full_AR/weights.pt",
+    "sha256": "2ccbaa6567c1492a812f2812ff842382f8b2a8bf6c54ff03134437426beb7afb",
+    "source_sha256": "f869b9112bea09ffc3b8733458a41bbb89140ba563c4641bee0fbfa68cc0fcea",
+    "model_module": "nets.attention_model_full_ar",
+    "model_config": "configs/models/AM_CVRP20_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_257.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP50_Baseline",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "baseline",
+    "epoch": 880,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Baseline/weights.pt",
+    "sha256": "6a79e85fdde56596ea5917ac00100908cafdb06f484660b2c51a7751c2f4226c",
+    "source_sha256": "e4007ae23de15e1f9fba5ab4375a4091ab09bbd1f6fe0c2d7d79c50bc7101166",
+    "model_module": "nets.attention_model",
+    "model_config": "configs/models/AM_CVRP50_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_259.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP50_Post_AR",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "post_ar",
+    "epoch": 850,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Post_AR/weights.pt",
+    "sha256": "966f3ff63fe3377502191e07fe96c4b521e20d4f5710c37f8d2d082978e2da52",
+    "source_sha256": "ee02a9a3a20befbeb0f41542ee68e3a096a424390bdd18ca5ade054bbea86af4",
+    "model_module": "nets.attention_model_post_ar",
+    "model_config": "configs/models/AM_CVRP50_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_260.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_CVRP50_Full_AR",
+    "solver": "AM",
+    "problem": "cvrp",
+    "size": 50,
+    "variant": "full_ar",
+    "epoch": 800,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Full_AR/weights.pt",
+    "sha256": "ce6917bc4cf552ae628325a4d9d6368bb7f23859df76e6e642b0e6c8aa5dd320",
+    "source_sha256": "3f7fc8583cd9f9cea6bc04bab1481ac2e7d9930e73034be27d59a00fe5076915",
+    "model_module": "nets.attention_model_full_ar",
+    "model_config": "configs/models/AM_CVRP50_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_261.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP100_Baseline",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "baseline",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Baseline/weights.pt",
+    "sha256": "9de772a27f07e63e81372ee639069269d7ff5400ff6cfc484da0abd6ba19b642",
+    "source_sha256": "8f462fe5416b31384a01ac59b9bfcb00ea33ffdd0d9d0b0cfc1710c9f8186b15",
+    "model_module": "nets.attention_model",
+    "model_config": "configs/models/AM_TSP100_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_273.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP100_Full_AR",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "full_ar",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Full_AR/weights.pt",
+    "sha256": "8ea628f7c9cdbf8c836dacb0cede057be7e7f702d6b19cad570dfa0b71fa7b6c",
+    "source_sha256": "8b8509dde80509b89829e6cf146f404d655dbbd97d1f227eaecff935dea602b8",
+    "model_module": "nets.attention_model_full_ar",
+    "model_config": "configs/models/AM_TSP100_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_274.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP100_Post_AR",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "post_ar",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Post_AR/weights.pt",
+    "sha256": "e3fda2e1fd54dc6a4140c4a5657b3e65324cd1684c2d84df0aecc469b73e28b5",
+    "source_sha256": "1eb5aaef6d244476c38bc2679633ef1edc686e0e7a91d8fd9c8237e1535322ea",
+    "model_module": "nets.attention_model_post_ar",
+    "model_config": "configs/models/AM_TSP100_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_277.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP20_Baseline",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "baseline",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Baseline/weights.pt",
+    "sha256": "79e8d4b14ac9160894301cbb02f854b5bcda91dae11d1eea7b9051d62a06fb5c",
+    "source_sha256": "585296447eafa4360b258ac2723e227c95f1cfda00b99aa492fee9546c1f7534",
+    "model_module": "nets.attention_model",
+    "model_config": "configs/models/AM_TSP20_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_291.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP20_Post_AR",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "post_ar",
+    "epoch": 999,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Post_AR/weights.pt",
+    "sha256": "a188b009d7c4eb7a0ff2cb8ac3c6cf09c48a6fa2b1ace572eab84390b58c4b19",
+    "source_sha256": "f2e28a16c50d9e827984c0baec016d0183f1b5cd9d03cf90c08b4e69a65274cd",
+    "model_module": "nets.attention_model_post_ar",
+    "model_config": "configs/models/AM_TSP20_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_292.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP20_Full_AR",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 20,
+    "variant": "full_ar",
+    "epoch": 50,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Full_AR/weights.pt",
+    "sha256": "3644ececd5514f6c5b36bbd88400dacad8325f0e02514a9e52fb9eba60c8eeb5",
+    "source_sha256": "92af4539c0b195d2d358b335047cebfe3dc6e09fd612e7aac493c65b429b41f5",
+    "model_module": "nets.attention_model_full_ar",
+    "model_config": "configs/models/AM_TSP20_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_293.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP50_Baseline",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "baseline",
+    "epoch": 499,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Baseline/weights.pt",
+    "sha256": "367689c7faed0ecad9f7b7bb53632cf78b0cfd7a9ee222d2f6121c99978ff584",
+    "source_sha256": "91e4892e48e922f5fe55eb7c89592f0355916016d9643de785efa38a31975e42",
+    "model_module": "nets.attention_model",
+    "model_config": "configs/models/AM_TSP50_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_295.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP50_Post_AR",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "post_ar",
+    "epoch": 499,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Post_AR/weights.pt",
+    "sha256": "b1ba2530ec01948831eaa180af64c6e58e7b99bcea2b68e4e02f7ed6d19871e1",
+    "source_sha256": "cb450daa1a9dcd8c800acab0150e8ba685c6fd772cd30283c5c951c8e7d34bda",
+    "model_module": "nets.attention_model_post_ar",
+    "model_config": "configs/models/AM_TSP50_Post_AR.json",
+    "training_configurations": [
+      "configs/history/run_296.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "AM_TSP50_Full_AR",
+    "solver": "AM",
+    "problem": "tsp",
+    "size": 50,
+    "variant": "full_ar",
+    "epoch": 499,
+    "epoch_indexing": "zero_based",
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Full_AR/weights.pt",
+    "sha256": "fb089a3fe81e656f480e46f5f84f338defae9b6bad61a019dd0705083602c9f5",
+    "source_sha256": "c78100a7895b3c9dc1460d4179b7310abb6465cfd8e0de4c79477db4a6bdb09b",
+    "model_module": "nets.attention_model_full_ar",
+    "model_config": "configs/models/AM_TSP50_Full_AR.json",
+    "training_configurations": [
+      "configs/history/run_297.json"
+    ],
+    "role": "available training-chain final; paper selection must be checked separately",
+    "tensor_equality_verified": true
+  },
+  {
+    "id": "POMO_TSP100_Baseline_Epoch500",
+    "solver": "POMO",
+    "problem": "tsp",
+    "size": 100,
+    "variant": "baseline",
+    "epoch": 500,
+    "epoch_indexing": "one_based",
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Baseline/epoch500.pt",
+    "sha256": "4bfbef6aa5c639dcc9e47d2231852327aca87023d19184bca003d99f40f1fd70",
+    "source_sha256": "4bce3e8e43399ae94c85249e5644b64f44d54f2aa8e38d0bef3d0c0237001114",
+    "model_module": "TSPModel",
+    "model_config": "configs/models/POMO_TSP100_Baseline.json",
+    "training_configurations": [
+      "configs/history/run_063.json",
+      "configs/history/run_114.json",
+      "configs/history/run_109.json",
+      "configs/history/run_116.json"
+    ],
+    "role": "exact epoch-500 generalization model",
+    "tensor_equality_verified": true
+  }
+]

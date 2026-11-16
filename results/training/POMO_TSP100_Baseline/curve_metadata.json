@@ -1,0 +1,7 @@
+{
+  "group": "POMO_TSP100_Baseline",
+  "conflicting_epochs": {},
+  "source_log_sha256": "df8572874cb3f03a415a8d1b3a00da6aa728cfc2486c5f55a3740aa4a43d28b1",
+  "source_parser": "retained analysis/plot_learning_curves.py points(); no smoothing or interpolation",
+  "rows": 560
+}

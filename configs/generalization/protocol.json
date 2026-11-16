@@ -1,0 +1,35 @@
+{
+  "seed": 20261106,
+  "sizes": [
+    100,
+    200,
+    500
+  ],
+  "distribution": "independent uniform coordinates in [0,1)^2; float32 torch.rand on CPU",
+  "stream_seed": "master_seed + size + (1000000 if split == smoke else 0)",
+  "model_params": {
+    "embedding_dim": 128,
+    "sqrt_embedding_dim": 11.313708498984761,
+    "encoder_layer_num": 6,
+    "decoder_layer_num": 1,
+    "qkv_dim": 16,
+    "head_num": 8,
+    "logit_clipping": 50,
+    "ff_hidden_dim": 512,
+    "eval_type": "argmax"
+  },
+  "lkh": {
+    "version": "3.0.13",
+    "binary_sha256": "581186a45cde5e186640c41b231555d33696fd8bccb87743394d843e176412ed",
+    "RUNS": 10,
+    "MAX_TRIALS": 1000,
+    "TIME_LIMIT": 60,
+    "SEED": 20261106,
+    "TRACE_LEVEL": 1,
+    "coordinate_scale": 1000000,
+    "primary_length": "Returned tour recomputed in float64 on original float32 coordinates; integer EUC_2D cost and scaled integer cost also saved.",
+    "interface": "Existing TSPLIB exporter and run_lkh_batch parameter builder; explicit seed added and MAX_TRIALS fixed at 1000 for this new experiment.",
+    "proof_of_optimality": false,
+    "binary_installation": "External user installation; not redistributed"
+  }
+}

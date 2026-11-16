@@ -1,0 +1,63 @@
+{
+  "run_id": "run_206",
+  "project": "POMO_PO",
+  "solver": "POMO",
+  "problem": "tsp",
+  "size": 100,
+  "variant": "full_ar",
+  "segments": [
+    {
+      "line": 3,
+      "env_params": {
+        "problem_size": 100,
+        "pomo_size": 100
+      },
+      "model_params": {
+        "embedding_dim": 128,
+        "sqrt_embedding_dim": 11.313708498984761,
+        "encoder_layer_num": 6,
+        "decoder_layer_num": 1,
+        "qkv_dim": 16,
+        "head_num": 8,
+        "logit_clipping": 50,
+        "ff_hidden_dim": 512,
+        "eval_type": "argmax"
+      },
+      "optimizer_params": {
+        "optimizer": {
+          "lr": 0.0003,
+          "weight_decay": 1e-06
+        },
+        "scheduler": {
+          "milestones": [
+            3001
+          ],
+          "gamma": 0.2
+        }
+      },
+      "trainer_params": {
+        "use_cuda": true,
+        "cuda_device_num": 2,
+        "epochs": 500,
+        "train_episodes": 100000,
+        "train_batch_size": 64,
+        "loss_type": "rl_loss",
+        "alpha": 0.05,
+        "local_search": false,
+        "augmentation_enable": false,
+        "aug_factor": 8,
+        "aug_batch_size": 8,
+        "optimizer_step_interval": 1,
+        "epoch_test": {
+          "enable": true,
+          "validation_set_path": "../../data/validation/tsp/uniform_size_100_seed_12345_tsp.pt",
+          "episodes": 10000,
+          "batch_size": 500
+        }
+      }
+    }
+  ],
+  "canonical_variant": "full_ar",
+  "path_base": "repository root; historical segments are preserved verbatim",
+  "active_paper_run": true
+}

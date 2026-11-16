@@ -1,0 +1,7 @@
+{
+  "group": "PO_CVRP50_Baseline",
+  "conflicting_epochs": {},
+  "source_log_sha256": "73147e202757e8aaae8a8c8d75dc168463fe4f8cbcd5292053b0eb66084993e0",
+  "source_parser": "retained analysis/plot_learning_curves.py points(); no smoothing or interpolation",
+  "rows": 1000
+}

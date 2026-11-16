@@ -1,0 +1,11 @@
+{
+  "embedding_dim": 128,
+  "sqrt_embedding_dim": 11.313708498984761,
+  "encoder_layer_num": 6,
+  "decoder_layer_num": 1,
+  "qkv_dim": 16,
+  "head_num": 8,
+  "logit_clipping": 50,
+  "ff_hidden_dim": 512,
+  "eval_type": "argmax"
+}

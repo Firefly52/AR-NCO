@@ -1,0 +1,7 @@
+{
+  "group": "POMO_TSP50_Full_AR_Run02",
+  "conflicting_epochs": {},
+  "source_log_sha256": "2feb27bc0c98e98fd9f5c5b0ed843b76f1d4c44f2e65e4f8a4d3d1320b4d894c",
+  "source_parser": "retained analysis/plot_learning_curves.py points(); no smoothing or interpolation",
+  "rows": 500
+}

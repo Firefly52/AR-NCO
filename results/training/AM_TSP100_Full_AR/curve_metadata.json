@@ -1,0 +1,7 @@
+{
+  "group": "AM_TSP100_Full_AR",
+  "conflicting_epochs": {},
+  "source_log_sha256": "2b7b166d1e8d9e6c15c96ef9d49024ef11a2989aa639b07891cb1bd5efe23b37",
+  "source_parser": "retained analysis/plot_learning_curves.py points(); no smoothing or interpolation",
+  "rows": 1000
+}

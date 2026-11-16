@@ -1,0 +1,9 @@
+AR-NCO research datasets, model weights and measured results are made available
+under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
+Attribution: AR-NCO contributors, When to Fuse? Exploring Cross-Depth Attention
+in Neural Combinatorial Optimization. Cite the artifact and repository version used.
+
+This applies to author-owned artifacts in datasets/, checkpoints/, results/,
+figures/ and code/*/data/. Third-party code retains its own notices.
+License: https://creativecommons.org/licenses/by/4.0/
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode.en

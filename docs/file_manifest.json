@@ -1,0 +1,4508 @@
+[
+  {
+    "file": ".gitattributes",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 125,
+    "sha256": "816d2299c0986afd3911abc6d11af936949043fab43b9389a7fe66ddcdf15b5e"
+  },
+  {
+    "file": ".gitignore",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 120,
+    "sha256": "238d7891469387771e2c0ff01ad0ebc97585914187352033202b82879ea965d6"
+  },
+  {
+    "file": "DATA_LICENSE",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 598,
+    "sha256": "3065bd05b5a4388bf58112a8ebe4c063796b899d2e00216d284fc988a8d3bb0b"
+  },
+  {
+    "file": "LICENSE",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1310,
+    "sha256": "5f811e21b932c1ebd7b2c76ca0df9f1a45092771c125f007209b1bef4ad17071"
+  },
+  {
+    "file": "README.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10138,
+    "sha256": "d16c318d52b5e4c61e732333c23f5351be8166c6812e693c007ff36d2aefd963"
+  },
+  {
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Baseline/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1135,
+    "sha256": "651c6c283a5ec5db611c416fc6b59ef57e2c602eb830f6f8a2486636be920935"
+  },
+  {
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5195607,
+    "sha256": "c2976529d9f8c922ab73eba25475381bc9207047e55e16acaaf3b2252461a760"
+  },
+  {
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Full_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1131,
+    "sha256": "319eba045449c0fe8fac7a4baab329ea88cddbee645ff32bb53c63ff8f453683"
+  },
+  {
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5185045,
+    "sha256": "3317aa3e36af747d3943d563e3a0c1d66145049d96287cce11e0335a4073bcfa"
+  },
+  {
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Post_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1141,
+    "sha256": "2f0d4953bbbaf64e451ff5e4886b60708e35eb02deb6ec1089e81e589e36d13f"
+  },
+  {
+    "file": "checkpoints/AM/CVRP100/AM_CVRP100_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5333507,
+    "sha256": "49ed1de3a87e5df26610c6aa0f745783499c54d4c20c065052d83090997a91f6"
+  },
+  {
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Baseline/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1094,
+    "sha256": "ccb352fe3ea20934bdd9e4385dd879cec6cc3843a0ffccb3d7f8b7f2e59d5530"
+  },
+  {
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5195607,
+    "sha256": "0025ebd484955f77962595d6384b913b527874dc54f3ec40518f4f9c1049ff9f"
+  },
+  {
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Full_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1090,
+    "sha256": "84c6eedf8b3194ccabcd2bc92ddbefa62b1a3444cfae3f9260be3a65c95407b6"
+  },
+  {
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5185045,
+    "sha256": "2ccbaa6567c1492a812f2812ff842382f8b2a8bf6c54ff03134437426beb7afb"
+  },
+  {
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Post_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1100,
+    "sha256": "aff10dbd2072349bc880c8128e45813b6aca2b56e47761a82debb0ff4dc94774"
+  },
+  {
+    "file": "checkpoints/AM/CVRP20/AM_CVRP20_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5333507,
+    "sha256": "65379cf874527d1081d213fe35d8833affe79162208d715e34e607b1eb2f3574"
+  },
+  {
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Baseline/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1094,
+    "sha256": "0e01d6ded1333156ade9a14a3e241985f5898f472a38d0a42c59808b9518283e"
+  },
+  {
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5195607,
+    "sha256": "6a79e85fdde56596ea5917ac00100908cafdb06f484660b2c51a7751c2f4226c"
+  },
+  {
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Full_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1090,
+    "sha256": "862ee97a0b7b8fe1bd83e42dc3b5c9060c447684252c83679e31f6b3949229ad"
+  },
+  {
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5185045,
+    "sha256": "ce6917bc4cf552ae628325a4d9d6368bb7f23859df76e6e642b0e6c8aa5dd320"
+  },
+  {
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Post_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1100,
+    "sha256": "3872759ce5b2329aa41574d6e6d0531409b3e7d1ee79a8e687e2c2cf0bc621c4"
+  },
+  {
+    "file": "checkpoints/AM/CVRP50/AM_CVRP50_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5333507,
+    "sha256": "966f3ff63fe3377502191e07fe96c4b521e20d4f5710c37f8d2d082978e2da52"
+  },
+  {
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Baseline/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1081,
+    "sha256": "b86198bf2295a6a7b5d26ade99ff7cd8eb32806f98c5113b572bd930f89a9995"
+  },
+  {
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5259225,
+    "sha256": "9de772a27f07e63e81372ee639069269d7ff5400ff6cfc484da0abd6ba19b642"
+  },
+  {
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Full_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1079,
+    "sha256": "95bc39870aa34b448a5bacaa7974a1c58c2bacf4bc3d2637954e377b84dceeff"
+  },
+  {
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5248728,
+    "sha256": "8ea628f7c9cdbf8c836dacb0cede057be7e7f702d6b19cad570dfa0b71fa7b6c"
+  },
+  {
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Post_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1100,
+    "sha256": "777ee3bae62bba95e2306580a94b441c6c3d567a81317de9c6e400e886169671"
+  },
+  {
+    "file": "checkpoints/AM/TSP100/AM_TSP100_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5397125,
+    "sha256": "e3fda2e1fd54dc6a4140c4a5657b3e65324cd1684c2d84df0aecc469b73e28b5"
+  },
+  {
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Baseline/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1091,
+    "sha256": "379c03b2037e205a0dc288d46fc43870acefde7b9ec016b9755409d70a7f5275"
+  },
+  {
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5259225,
+    "sha256": "79e8d4b14ac9160894301cbb02f854b5bcda91dae11d1eea7b9051d62a06fb5c"
+  },
+  {
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Full_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1087,
+    "sha256": "a4c05ff0f0116d00d8ed23bc0059b846ed73b9bbf845d32a1a3f23334b89cce4"
+  },
+  {
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5248728,
+    "sha256": "3644ececd5514f6c5b36bbd88400dacad8325f0e02514a9e52fb9eba60c8eeb5"
+  },
+  {
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Post_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1097,
+    "sha256": "a3c90084dfb4c705d7e2a72fe3de7fb18a06d31554b304ffa27ba6250bd5af45"
+  },
+  {
+    "file": "checkpoints/AM/TSP20/AM_TSP20_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5397125,
+    "sha256": "a188b009d7c4eb7a0ff2cb8ac3c6cf09c48a6fa2b1ace572eab84390b58c4b19"
+  },
+  {
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Baseline/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1091,
+    "sha256": "3353b16ec6b3eef0c0260c3759178c76e71644588351f025c68730e0e937ded1"
+  },
+  {
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5259225,
+    "sha256": "367689c7faed0ecad9f7b7bb53632cf78b0cfd7a9ee222d2f6121c99978ff584"
+  },
+  {
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Full_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1087,
+    "sha256": "cb0674bb39eaec67057a16431eb26b5a298f452d86d02b47c7d9bf826ff2b340"
+  },
+  {
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5248728,
+    "sha256": "fb089a3fe81e656f480e46f5f84f338defae9b6bad61a019dd0705083602c9f5"
+  },
+  {
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Post_AR/args.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1097,
+    "sha256": "d5544e66055178a1a95a99f506c42eeef0f42485da9487820313aad1d32a15ea"
+  },
+  {
+    "file": "checkpoints/AM/TSP50/AM_TSP50_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5397125,
+    "sha256": "b1ba2530ec01948831eaa180af64c6e58e7b99bcea2b68e4e02f7ed6d19871e1"
+  },
+  {
+    "file": "checkpoints/PO/CVRP100/PO_CVRP100_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5843066,
+    "sha256": "99bcac8c53b2450042b86bc833a34beedd11dbd993f2326757534f06d5cd5df4"
+  },
+  {
+    "file": "checkpoints/PO/CVRP100/PO_CVRP100_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5851121,
+    "sha256": "bb3ff9fcec9f68796272095d151580e71bdef5f005077466e620ebaab2196cee"
+  },
+  {
+    "file": "checkpoints/PO/CVRP100/PO_CVRP100_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5977327,
+    "sha256": "b63812c671d982a0a677920fc82fd4fddfa3c5078665c5f7ceb3578a6f191c12"
+  },
+  {
+    "file": "checkpoints/PO/CVRP20/PO_CVRP20_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5843066,
+    "sha256": "9c0eb945dddf378d7dd2e84fa7a24368ed9b5e07c81352cb334dcbafd1177a45"
+  },
+  {
+    "file": "checkpoints/PO/CVRP20/PO_CVRP20_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5851121,
+    "sha256": "1e153b31f69ea1a7d70c0039d73fbe55a01f27e7f387ad4525ad5fa1b0d7df60"
+  },
+  {
+    "file": "checkpoints/PO/CVRP20/PO_CVRP20_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5977327,
+    "sha256": "bdf5f3c1ad604ef253e15c98fc6d8c33443b8975a5508bfd97d788fcd700e8f8"
+  },
+  {
+    "file": "checkpoints/PO/CVRP50/PO_CVRP50_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5843066,
+    "sha256": "379bb35e8a07b78bdc5a757dbcde0adccad775bf0cdcef9f60cfd4956d22265c"
+  },
+  {
+    "file": "checkpoints/PO/CVRP50/PO_CVRP50_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5851121,
+    "sha256": "0d590a160851b752a4d1ce74db773575dfac2e19dfb8b4a58a2794a1f9ee6275"
+  },
+  {
+    "file": "checkpoints/PO/CVRP50/PO_CVRP50_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5977327,
+    "sha256": "d3f1e2103297b4e9d383ebfac8e1536f26b027822503cc33255ff825a8f2b207"
+  },
+  {
+    "file": "checkpoints/PO/TSP100/PO_TSP100_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5839744,
+    "sha256": "f86b32ef0daede1685737b86efc2c94c7492e723aeaad32ba9c453b45c0158f3"
+  },
+  {
+    "file": "checkpoints/PO/TSP100/PO_TSP100_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5845434,
+    "sha256": "e558c72eb7932e9659311a23f85964ccea3e201512be6de10afa8e8c1e5a85c8"
+  },
+  {
+    "file": "checkpoints/PO/TSP100/PO_TSP100_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5974003,
+    "sha256": "79d01651911d44485b7645df83e0cd3cb5a534e9a4d6909354706caa4cf87724"
+  },
+  {
+    "file": "checkpoints/PO/TSP20/PO_TSP20_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5839744,
+    "sha256": "5e495bc63929c41a03da3908b749553a6656c333f0f4341da24010a05b5178ff"
+  },
+  {
+    "file": "checkpoints/PO/TSP20/PO_TSP20_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5847093,
+    "sha256": "fb484d586ba1190012d96b27570967250ea12fd6eeb88eed4c5263bfd010581d"
+  },
+  {
+    "file": "checkpoints/PO/TSP20/PO_TSP20_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5974003,
+    "sha256": "52c79fe946909d718ee857535113a5a7832987bbab1cf09e9d06b266859c6356"
+  },
+  {
+    "file": "checkpoints/PO/TSP50/PO_TSP50_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5839744,
+    "sha256": "3a203511691190e9bcdccd5b9ca4038af8b46058b8375b53398c7b440edd2de9"
+  },
+  {
+    "file": "checkpoints/PO/TSP50/PO_TSP50_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5847093,
+    "sha256": "f5bbcc01a20fab3d284bfda60a07f1428634bc016d086320548fe299c707db5e"
+  },
+  {
+    "file": "checkpoints/PO/TSP50/PO_TSP50_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5974003,
+    "sha256": "cab43872ee542486124612d30b58c0f830652e556e33dab66ad3d1fdd3c85c56"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP100/POMO_CVRP100_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5843066,
+    "sha256": "2b01c4643aec48acefebf7e416a88503b0fe87b89b981820c81b9118534a8e8c"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP100/POMO_CVRP100_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5851121,
+    "sha256": "067c25de4e201890785b6517ea18ab073c0dc1c9cb68c6f620b3874669a81231"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP100/POMO_CVRP100_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5977327,
+    "sha256": "00246baacd525def9e6071b32fe13c8e9c7504472cf9703b2984600b364e7d1c"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP20/POMO_CVRP20_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5843066,
+    "sha256": "986df1d27ee8bf64afd7dc17b10f38c377d838c5254ddd9c75eb82cbbff24ca4"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP20/POMO_CVRP20_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5851121,
+    "sha256": "1ee54ea56aa6e65e75a0d750850e3eb620d5095a0fd65e6eb35c545c6d5146b4"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP20/POMO_CVRP20_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5977327,
+    "sha256": "8c1a937b7e542c9e7ee847ab9792ca205347606f8bc6eb2f661888ba40a4fa50"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP50/POMO_CVRP50_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5843066,
+    "sha256": "d465396a07da44a017312d2e21d18ad80aa518e64b045e0931968eef194827f4"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP50/POMO_CVRP50_Full_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5851121,
+    "sha256": "3b686c5e35b5a3af4d43f7045d34c85118fb14bc2667754708585007708249a5"
+  },
+  {
+    "file": "checkpoints/POMO/CVRP50/POMO_CVRP50_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5977327,
+    "sha256": "aec15a99b1cbf37fc406cf71d475eb802659294fd9fdd97795c306cb6d4043eb"
+  },
+  {
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Baseline/epoch500.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5840423,
+    "sha256": "4bfbef6aa5c639dcc9e47d2231852327aca87023d19184bca003d99f40f1fd70"
+  },
+  {
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5839744,
+    "sha256": "10477aac5080133bd7ddd6a9105b9d39cabeff9e1398d24738e028421fcf7fac"
+  },
+  {
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Full_AR_Run01/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5845434,
+    "sha256": "217d9c7ee32e4f9b783b0bf4161664ebcb70794f8a61673fe795f4204df1ae01"
+  },
+  {
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Full_AR_Run02/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5847093,
+    "sha256": "d673f8966720897646339e97e31e688bf925667a54832ad8094ebbeb0df4c956"
+  },
+  {
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Post_AR_Run01/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5974003,
+    "sha256": "ebc97ad47cb4c5f432c2d3cae03ca8f40125149e4871b5eedc1971372e64a295"
+  },
+  {
+    "file": "checkpoints/POMO/TSP100/POMO_TSP100_Post_AR_Run02/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5974003,
+    "sha256": "623c9147ae1b2c311699997a711d4bf8a2b1d1cc416c2028043967fe9a1253c9"
+  },
+  {
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5839744,
+    "sha256": "3ca5d814fc0e0384cb85b8d68c820a93d73f07e470e74d41389699a3027450f1"
+  },
+  {
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Full_AR_Run01/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5847093,
+    "sha256": "59bcf5c54d33bfa3d67d6b23da046df155a33d9466e925e962a0dc6bfa7c116a"
+  },
+  {
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Full_AR_Run02/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5847093,
+    "sha256": "eafa987c1ae779cedeceb6821279b487b15d62e27d68f5475c188b70089541b5"
+  },
+  {
+    "file": "checkpoints/POMO/TSP20/POMO_TSP20_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5974003,
+    "sha256": "3284d2b6aa14a5395f6f977ea1d8f7f572d64475215eb1aa2a4089981077f2f5"
+  },
+  {
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Baseline/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5839744,
+    "sha256": "60a4da5620627e051b5838a5a60f52589178cf1a49bcd6b3cff75005ddf65db5"
+  },
+  {
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Full_AR_Run01/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5847093,
+    "sha256": "8ea4988642bee5e08063d8193ad5be12aa3f0c0c69c801c16bcf4fa58d8b5dc0"
+  },
+  {
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Full_AR_Run02/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5847093,
+    "sha256": "80feb1142845ed8469d246058b19b7e07d2fb76ab2d4bc5c62bf587f3a0f7f12"
+  },
+  {
+    "file": "checkpoints/POMO/TSP50/POMO_TSP50_Post_AR/weights.pt",
+    "archive": "AR-NCO-Checkpoints.zip",
+    "bytes": 5974003,
+    "sha256": "4c7d7b91b287880aae6a378c098b7204838c05a3896e6c7f45f14c8ed8f81a46"
+  },
+  {
+    "file": "checkpoints/manifest.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 13102,
+    "sha256": "00e7cee64f0b35a1cde49a8f68920a174b4415b7d18de86b2841919de6e728aa"
+  },
+  {
+    "file": "checkpoints/manifest.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 45316,
+    "sha256": "8dc16094c0b7af5376962017a8dd853b262a5c8f411ea119af115609a1b4df01"
+  },
+  {
+    "file": "code/AM/LICENSE",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1068,
+    "sha256": "e9eee47b6c6be05a17c1b1916dafcbdf571b799785422686b65b40f74688e3d0"
+  },
+  {
+    "file": "code/AM/data/tsp/uniform_size_100_seed_12345_tsp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 8000883,
+    "sha256": "c2553cc34073c6a1293b6c032f84c96f894509230f93a604277e5c3a02b2aec7"
+  },
+  {
+    "file": "code/AM/data/tsp/uniform_size_20_seed_12345_tsp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 1601359,
+    "sha256": "d567953e9615c4866ce01f2ed52fa2f12115d0cd3d1c3cd4ee2cd4b3943cf141"
+  },
+  {
+    "file": "code/AM/data/tsp/uniform_size_50_seed_12345_tsp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 4001359,
+    "sha256": "bf1760a6e4772f56de96ee77bd066df17aaa6c12bb7d0b456bd6775f666055d8"
+  },
+  {
+    "file": "code/AM/data/vrp/uniform_size_100_seed_12345_cvrp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 12120886,
+    "sha256": "a7fe8711e8002284cfe522ee944ee99317f30b02270a3c3cc98edc89fa7f1caf"
+  },
+  {
+    "file": "code/AM/data/vrp/uniform_size_20_seed_12345_cvrp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 2521873,
+    "sha256": "8cab52620e475562a648f5eb8c5715817f6d2a73909134901d0566a33ff4d340"
+  },
+  {
+    "file": "code/AM/data/vrp/uniform_size_50_seed_12345_cvrp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 6121873,
+    "sha256": "00863c3820b84e43c3eba1218613dda3a92df8a2a2355a582103a43f2f1e6d90"
+  },
+  {
+    "file": "code/AM/eval.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 9820,
+    "sha256": "e971c8ee9adfc1ef4da1485a0f32a47f10693d1aa6d78bc96cfdb70caf2bf027"
+  },
+  {
+    "file": "code/AM/generate_data.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1936,
+    "sha256": "040ac72e8146ffc8a3ba74c861b53c89bc66a8cd88eac185fea36176b04bc28a"
+  },
+  {
+    "file": "code/AM/nets/__init__.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "code/AM/nets/attention_model.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 22374,
+    "sha256": "e9253b648c6cd28a61bedcd47437d777a82e2f69e8652af2da2fa6c1fa432ca9"
+  },
+  {
+    "file": "code/AM/nets/attention_model_full_ar.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1273,
+    "sha256": "b21eec74ccf59a6a73651bb5d895f6489ad461091657d37e2ce2f0778cc84038"
+  },
+  {
+    "file": "code/AM/nets/attention_model_post_ar.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 22520,
+    "sha256": "fe2058c1816bd3740d9e4ebd7e8aef54d7823c82f9f63360d72a7a280dce92d5"
+  },
+  {
+    "file": "code/AM/nets/graph_encoder.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 7222,
+    "sha256": "25cc083b5df5dc0cc72355a30f3179e37a60a752f99d5d022a97467a9f6c6fd3"
+  },
+  {
+    "file": "code/AM/nets/graph_encoder_full_ar.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5873,
+    "sha256": "7cde38469013302ddac07ad51e5b708ed49ff31840a307b0ea4bece3f1650922"
+  },
+  {
+    "file": "code/AM/nets/graph_encoder_post_ar.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 7976,
+    "sha256": "0a4e5481d6a459622ab2c76c356824989384debbca9ff4957f6a1a4e1247084f"
+  },
+  {
+    "file": "code/AM/options.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2783,
+    "sha256": "0957b04f02ca2bbedd9f29923967882ba1ddec6d8d8e66f591576e16b8071f63"
+  },
+  {
+    "file": "code/AM/problems/__init__.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 83,
+    "sha256": "d0582c255c23ea7352f0d5b8109630b6f1576e37cd6e4134ddd9d09e67f0f00e"
+  },
+  {
+    "file": "code/AM/problems/tsp/__init__.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "code/AM/problems/tsp/problem_tsp.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3295,
+    "sha256": "ceb35ac86810c02b12000de1ee8df9cecf50773ec9f38e727f161b7fff5253ed"
+  },
+  {
+    "file": "code/AM/problems/tsp/state_tsp.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5352,
+    "sha256": "a117aa057cc096616a5d72dcbd69d8a43a491375ff311783ee6ad83ce81a2a71"
+  },
+  {
+    "file": "code/AM/problems/tsp/tsp_baseline.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 17311,
+    "sha256": "46da7a92c13f9c08af7763786873a980c31067d361729a3449870b06adb37ade"
+  },
+  {
+    "file": "code/AM/problems/tsp/tsp_gurobi.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3951,
+    "sha256": "0d0d2a1537f2de6b72ef68fd4c6d64c7e702ca0e8c043472ebc61c658a088529"
+  },
+  {
+    "file": "code/AM/problems/vrp/__init__.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "code/AM/problems/vrp/problem_vrp.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10161,
+    "sha256": "4cfcfc249657d59563ca232be13804a4c59823c2c9b128c44cd4cfc806cc43ce"
+  },
+  {
+    "file": "code/AM/problems/vrp/state_cvrp.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 6444,
+    "sha256": "8aa605e101ec54584c71adc1f7e392afaa2b11306718cef79d9e296b4c233499"
+  },
+  {
+    "file": "code/AM/problems/vrp/state_sdvrp.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4821,
+    "sha256": "c2261223ce6f322b0337e53972d785ec3f2bfa40af77827b6926d51dda241c81"
+  },
+  {
+    "file": "code/AM/problems/vrp/vrp_baseline.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10387,
+    "sha256": "7529cc21e794a0a8f950f3a10c0d9873131da6934fff281b608a77ef8d7ec791"
+  },
+  {
+    "file": "code/AM/reinforce_baselines.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 8315,
+    "sha256": "b283795f19243a775c5cc64f998335d7f170cd2c9a5c9674ea4fe5ccb2aea9ea"
+  },
+  {
+    "file": "code/AM/run.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 19872,
+    "sha256": "b5172ed6f13e2cbdaf09d7d21da5b2e390f549f355acedc7d7243e3ad815b839"
+  },
+  {
+    "file": "code/AM/train.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5216,
+    "sha256": "180489dfa0db65f90c7e60760880986f8ce343579dbd9f12ef28e1dff8bd8ece"
+  },
+  {
+    "file": "code/AM/utils/__init__.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 24,
+    "sha256": "e6e488e8f2a8972817e3a8ed9949d949b75a4f88182118c27dcf0bffd8c1d9c2"
+  },
+  {
+    "file": "code/AM/utils/beam_search.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 8193,
+    "sha256": "5c5f0191335089e33b27c4f3bb0c58ebf992c40060fe361e1ba4080e2b4d8302"
+  },
+  {
+    "file": "code/AM/utils/boolmask.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2588,
+    "sha256": "64b935cafc3a82dec3cf0bbcaad80a63e2a24f868dccb994bc44aea3c9708ecf"
+  },
+  {
+    "file": "code/AM/utils/data_utils.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 528,
+    "sha256": "8849e48aac943a44d34572725ad14c0f68dbbe95f39cf73e96b0106da8d8109c"
+  },
+  {
+    "file": "code/AM/utils/functions.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 7472,
+    "sha256": "ed764869113d1663a84283a18415a1e41c9e910b9de251f98ce9a57eb8e94cf6"
+  },
+  {
+    "file": "code/AM/utils/lexsort.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2382,
+    "sha256": "c0d84f5b8a6d2a8c97a75b63c7796699dd3fec7440a43f7c191028c2ec064bcc"
+  },
+  {
+    "file": "code/AM/utils/log_utils.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1147,
+    "sha256": "817127712830d7f16bc16cb1c63d3470a6374e7f129073f7540298b8356c06de"
+  },
+  {
+    "file": "code/AM/utils/monkey_patch.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2734,
+    "sha256": "52d4170b92167c4d39fcc8f9377fe5c516c54129dca68e8c327a140b8f5cc769"
+  },
+  {
+    "file": "code/AM/utils/tensor_functions.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1608,
+    "sha256": "ccb654ea1c80949bfc7fbec304a39e345b8b8cf2e8dafecaa72c579ea20fc960"
+  },
+  {
+    "file": "code/POMO_PO/LICENSE",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1067,
+    "sha256": "4633bd4f8db0ed920a593c7e5a74b694305e5209f5524d76d00172b01682774a"
+  },
+  {
+    "file": "code/POMO_PO/POMO/CVRP/CVRProblemDef.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1263,
+    "sha256": "0f3c90ffda2274e6e82a5370acb31cd482eda03ab52e10612dfabd76f35e6428"
+  },
+  {
+    "file": "code/POMO_PO/POMO/CVRP/POMO/CVRPEnv.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 9957,
+    "sha256": "a5531b51388273f20acba247e99cdcf9e3dec6cb0a08ea9f7df3ba7cf8e2e265"
+  },
+  {
+    "file": "code/POMO_PO/POMO/CVRP/POMO/CVRPModel.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 18174,
+    "sha256": "78a198b6ec15a747e58521566691b76aa5d21450da9a9b4dcd9c120f7eab77ae"
+  },
+  {
+    "file": "code/POMO_PO/POMO/CVRP/POMO/CVRPModelFullAR.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 7543,
+    "sha256": "c4b77df7378cddaa6d59ba50e005c896b396e68a4206eea7416172785916372f"
+  },
+  {
+    "file": "code/POMO_PO/POMO/CVRP/POMO/CVRPModelPostAR.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 13128,
+    "sha256": "ebc87357ebaf73364a591d4df786d3d7a9ac5995e091d0035d23826c21b76eb3"
+  },
+  {
+    "file": "code/POMO_PO/POMO/CVRP/POMO/CVRPTester.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10068,
+    "sha256": "e2d4396d6fa0751fb1985e56e59d39c6db83d6fe6141607eeb47b6ddc218e8e1"
+  },
+  {
+    "file": "code/POMO_PO/POMO/CVRP/POMO/CVRPTrainer.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 13086,
+    "sha256": "e40a1e541fc77b249a7578bf864d341dfeb7bb05389d7e4bac75307c317199dd"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPEnv.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5555,
+    "sha256": "42630077ea5d694989922423cf5e6472ac6a6f9606a1837382131014cbcce5b7"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPLocalSearch.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5956,
+    "sha256": "36914f8e4fd6ac8f7af7e28f3f65c17a95660c19949bfe93cae82d9b6d6b2580"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPModel.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 16430,
+    "sha256": "674a754ecd0eb466ef11933de27c3126194357af3245711da88432b668d3d03b"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPModelFullAR.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 18158,
+    "sha256": "bd8af1cfe97c6f0d4f5acd6999cebd83d00014151a72f99efee727a209c68316"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPModelFullARLegacy.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 318,
+    "sha256": "7abe36d2a79ac6d7a59a1355c8099fc6b2bbfd6958edbf532943f1d24e4da6bd"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPModelPostAR.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 13971,
+    "sha256": "a870a4b42cefb98485dd0484339213383709205f3f4cf4c3b9ac0b13df05ca70"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPTester.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10185,
+    "sha256": "bc94fafd10113ac2ad45815006a275048f518d8c5ed156fced9a2f2a6f042662"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/POMO/TSPTrainer.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 18721,
+    "sha256": "2a093f153939985928dc25d3f5924aa392b9aeec62ec4a70ab9153575ab01a72"
+  },
+  {
+    "file": "code/POMO_PO/POMO/TSP/TSProblemDef.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 856,
+    "sha256": "de894dc2488ef50350e1872eba0bcfc1480f2f77cd0924816df25b5f1965bbee"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/cvrp/uniform_size_100_seed_12345_cvrp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 12120886,
+    "sha256": "a7fe8711e8002284cfe522ee944ee99317f30b02270a3c3cc98edc89fa7f1caf"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/cvrp/uniform_size_20_seed_12345_cvrp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 2521873,
+    "sha256": "8cab52620e475562a648f5eb8c5715817f6d2a73909134901d0566a33ff4d340"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/cvrp/uniform_size_50_seed_12345_cvrp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 6121873,
+    "sha256": "00863c3820b84e43c3eba1218613dda3a92df8a2a2355a582103a43f2f1e6d90"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/tsp/uniform_size_100_seed_12345_tsp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 8000883,
+    "sha256": "c2553cc34073c6a1293b6c032f84c96f894509230f93a604277e5c3a02b2aec7"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/tsp/uniform_size_20_seed_12345_tsp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 1601359,
+    "sha256": "d567953e9615c4866ce01f2ed52fa2f12115d0cd3d1c3cd4ee2cd4b3943cf141"
+  },
+  {
+    "file": "code/POMO_PO/POMO/data/validation/tsp/uniform_size_50_seed_12345_tsp.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 4001359,
+    "sha256": "bf1760a6e4772f56de96ee77bd066df17aaa6c12bb7d0b456bd6775f666055d8"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/log_image_style/style_cvrp_100.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 167,
+    "sha256": "9d6f20e9755ab7d19ee217e5fe33f3174788d2a57864da090acaeb9644723c29"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/log_image_style/style_cvrp_20.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 167,
+    "sha256": "886a29bbed132eac45a719b5e1eb6aacd6b6da4d7e7a132a9ad917f88177b105"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/log_image_style/style_cvrp_50.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 167,
+    "sha256": "886a29bbed132eac45a719b5e1eb6aacd6b6da4d7e7a132a9ad917f88177b105"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/log_image_style/style_loss_1.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 166,
+    "sha256": "eb67399538571d2cbd507bcd62c98f2c939cc7510a58640aa1a33a52fc1e6d30"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/log_image_style/style_tsp_100.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 161,
+    "sha256": "e495c80f3f333c5c396086c0ad4d666a3549562aae42dc118fbde32e165865ca"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/log_image_style/style_tsp_20.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 167,
+    "sha256": "d8cadbf4dd4f88175821f7dfb51b955dbdf8d817e80a1c21c8bf029eadee5955"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/log_image_style/style_tsp_50.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 161,
+    "sha256": "8962b8e826544cc488a60be0515cf25eb1467b179000469d9119d3be8181f630"
+  },
+  {
+    "file": "code/POMO_PO/POMO/utils/utils.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11385,
+    "sha256": "6b975176eb6216065f22fe101e92ba425b90bbf8a170eafeca3dc78dafdc1363"
+  },
+  {
+    "file": "code/POMO_PO/run.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 8471,
+    "sha256": "a998e3b546119b1ebf5243f7d2682d8ed34c76c9a16926f1873faa9be290d562"
+  },
+  {
+    "file": "configs/generalization/models.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 134,
+    "sha256": "4f6c28509e8bf4e333222e12d1f07e34b7d99d299372d9e66dff117229b8239b"
+  },
+  {
+    "file": "configs/generalization/protocol.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1186,
+    "sha256": "82ef2301a5352fcedb3f3d38c755ad431d10efc5c5167e87650e36afd8ddd21c"
+  },
+  {
+    "file": "configs/history/run_001.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 6554,
+    "sha256": "c14d8a818bf30775e33c6761d80aadd13533df029bea0d450b20a5a8dad5be07"
+  },
+  {
+    "file": "configs/history/run_002.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 8486,
+    "sha256": "55423c156552bf3e236a165f34f25e5ae7c89487eb4458fd79a4bf763fe8fd80"
+  },
+  {
+    "file": "configs/history/run_004.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 6531,
+    "sha256": "4b94071460c24de733262d72e5a622bb49f5dfac4cd8825c2124a32d7fea6161"
+  },
+  {
+    "file": "configs/history/run_005.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10826,
+    "sha256": "af57046565c8e400b77b5b3926d28d99613e7456e78e22dd1822e671a7258f48"
+  },
+  {
+    "file": "configs/history/run_006.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5301,
+    "sha256": "6b408c5a0d38aecbb7881cbe17f63f9b3e440ae11399355df22c4411f5b88601"
+  },
+  {
+    "file": "configs/history/run_007.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2785,
+    "sha256": "54d23f48bbad93ce22f3d60a13a96910f0749e4db4529d67e3a85d405ef4afde"
+  },
+  {
+    "file": "configs/history/run_008.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4046,
+    "sha256": "5acb353a1e633643199672695b3fdd1067d630c893a1980cea0a96a43bd07ddb"
+  },
+  {
+    "file": "configs/history/run_009.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3805,
+    "sha256": "e8d1bb9e2462615a4226a49833c035fd7d762584094f53347c8e016079d460a9"
+  },
+  {
+    "file": "configs/history/run_010.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1467,
+    "sha256": "546a0b103bae52ab28e8b48a49c7b6f31810d5801c3966048862beea741debbc"
+  },
+  {
+    "file": "configs/history/run_011.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2793,
+    "sha256": "75f0689b26e89129617e81bdfb5bea9eeb95ecb4d0d55da888c1914f897682c7"
+  },
+  {
+    "file": "configs/history/run_012.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1540,
+    "sha256": "172d9181308071d9fa8e3bccd131a2ac1c14ebbe5c0ca06e94e1a772bea2f21d"
+  },
+  {
+    "file": "configs/history/run_013.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1467,
+    "sha256": "4d24c2ed4c14b2dd7796b9cb0fbf03a9a7122fe86ed9c7034ed0a8cb12cbed36"
+  },
+  {
+    "file": "configs/history/run_017.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1467,
+    "sha256": "38eb1ea5a26dbad3f9dfb742e07d5de393e47b3cbc8e948c0f0c53203039f337"
+  },
+  {
+    "file": "configs/history/run_019.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1468,
+    "sha256": "664a5a3924ad30ce37208af58a5869e2a5394fc1109848d0559c1eb4dee9bd6e"
+  },
+  {
+    "file": "configs/history/run_021.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2783,
+    "sha256": "bc30c6bf0ab4f2be3600af9d52efdec999d24cdd8b5b7927d781a0bc5bf0da10"
+  },
+  {
+    "file": "configs/history/run_022.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10826,
+    "sha256": "c47c49eb8eca0f1fc643e11e7b2727dd57c1f9a2d300514764687bb11671e1cf"
+  },
+  {
+    "file": "configs/history/run_023.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2635,
+    "sha256": "b6ef1d9aecd71e3d2933581d6038823f461e237e94a33ed10f5244b3d37c1996"
+  },
+  {
+    "file": "configs/history/run_024.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1466,
+    "sha256": "8a11710da793673435e9c910f5315eb86a91d7c152b8b5b9179bb79473bdcaff"
+  },
+  {
+    "file": "configs/history/run_025.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1534,
+    "sha256": "1bd95e243118d4cf1c9cefee56b4093a7cd7377d2403ffaca0772cc65757bdcf"
+  },
+  {
+    "file": "configs/history/run_026.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1466,
+    "sha256": "37e184f9d97969141ce92af109e3a7f97ba820a7400285337a35d87ea6976ee3"
+  },
+  {
+    "file": "configs/history/run_029.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3806,
+    "sha256": "de0262994ff2cb27f184849ec7a61b9eddfe32b5f63fd59cd99e9d2db2e81914"
+  },
+  {
+    "file": "configs/history/run_030.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1466,
+    "sha256": "e7407f15d67561e58435bbac1afbbbd35cbd0ff714760a5fcd3c85f57a072d58"
+  },
+  {
+    "file": "configs/history/run_031.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1466,
+    "sha256": "139131cadf06c002120cbeb086c16d6338a032fd3fb0f5d35ba2a67c2d10b447"
+  },
+  {
+    "file": "configs/history/run_032.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1534,
+    "sha256": "20cbe5907b5bc1c7b408e5ec3d7641a9de34d5114307163a3d4512670820da8d"
+  },
+  {
+    "file": "configs/history/run_033.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1466,
+    "sha256": "3b742e6abc26b52bb026851a5044869c3ec736b07e6eeca5a37e1efa87981250"
+  },
+  {
+    "file": "configs/history/run_034.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4047,
+    "sha256": "0958a1d55f69d963ad692b5b6caa8ce54005a02a334db893bbc365320b1cb58e"
+  },
+  {
+    "file": "configs/history/run_035.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2792,
+    "sha256": "1a0c28c80304f9357d06884af4ce0832736f4c67621ee0a90971958f8945e11f"
+  },
+  {
+    "file": "configs/history/run_036.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1541,
+    "sha256": "173e7b74de2350509d573d2c9cd5606afff37fe114abb95567aa5a1cf8ac9dec"
+  },
+  {
+    "file": "configs/history/run_037.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1539,
+    "sha256": "38b6d377fe8c0ddfe781049742ecb7760404c4735d0f7bd35d245bba471993e6"
+  },
+  {
+    "file": "configs/history/run_038.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1534,
+    "sha256": "c66e6a4b9706f6cc0a314fc32198fe0b8405d285a27913fa70485ff048bc46bb"
+  },
+  {
+    "file": "configs/history/run_039.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1534,
+    "sha256": "a81e417a06b8d04becd3ee585f722d3b5d9d68db51802cb0f7d3185f232ab11b"
+  },
+  {
+    "file": "configs/history/run_040.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1466,
+    "sha256": "b99027fe5fd1b5824ba959fc3bfcbb09c9e8372d5a7563b05e55f9f1cc6b4902"
+  },
+  {
+    "file": "configs/history/run_041.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1539,
+    "sha256": "8d7739e18c6b290670f3e9bc73da5e8e1d768520b48699684a32f9c9a23dbbc8"
+  },
+  {
+    "file": "configs/history/run_042.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1468,
+    "sha256": "c21153aa250e57fb7f8e736a8f7ef609982b081edda964da891eaa300a62c236"
+  },
+  {
+    "file": "configs/history/run_043.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2785,
+    "sha256": "6fa596bbb928197633b21c65ea209cbdcde61c6d511f4d3fc5235f81860ce315"
+  },
+  {
+    "file": "configs/history/run_044.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1536,
+    "sha256": "8e1d00928782a3054b9fd7f7ae2e78eecd4551b91e7d8d6adee0468db9f45b02"
+  },
+  {
+    "file": "configs/history/run_045.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1541,
+    "sha256": "9a4cf5c987de6dc300eb1ff41a8669875b58b8b88a08051f86c69468ae72e513"
+  },
+  {
+    "file": "configs/history/run_046.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1468,
+    "sha256": "e7242e32ff92cb568011852271eaba39ab9773d6d5a83661d8573e4a4b742490"
+  },
+  {
+    "file": "configs/history/run_047.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1463,
+    "sha256": "8c22af705994a68d60966030de6c592d9c9e6a5522640376a0ddd7e434cdc48b"
+  },
+  {
+    "file": "configs/history/run_048.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1465,
+    "sha256": "33d0096ae75f7a0eff196edee5a88632b6557b713f4328ea9cb02e929c4eeef6"
+  },
+  {
+    "file": "configs/history/run_049.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1533,
+    "sha256": "5373aed29c9614e5fafa89f08562df0c49dc8ad5ff7d4d4d19005ce1ddf9ef11"
+  },
+  {
+    "file": "configs/history/run_050.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1531,
+    "sha256": "8e8bb6586ca03b4cde3a3a92ccb8584516ed69b52cb057b2582cd713267d04ab"
+  },
+  {
+    "file": "configs/history/run_051.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1538,
+    "sha256": "eed4cdf00103eb4d49060411bc6d38f82680b2567074e93e05fc5086a15aef25"
+  },
+  {
+    "file": "configs/history/run_052.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1536,
+    "sha256": "a2a512eaf37831249ee075c00967af37e761bcdaf025aba0b5ca42b5537dd860"
+  },
+  {
+    "file": "configs/history/run_053.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1536,
+    "sha256": "6a562dcd50bdbbf802f8ef0be6e1a17e4ca33a659eedb2210c2993f96fedf44a"
+  },
+  {
+    "file": "configs/history/run_054.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1538,
+    "sha256": "e08c59d56b9fe38dac71b1c382fe7d034b7cdce4ecef68009d90e81272838ec7"
+  },
+  {
+    "file": "configs/history/run_055.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1499,
+    "sha256": "a63b99900e386b5e8a1bdb648134e4a6ec951727a6b60ef9fb156a0353120e24"
+  },
+  {
+    "file": "configs/history/run_056.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1531,
+    "sha256": "f10ab1e60c795a612421322b2f3660e36778035724662b472d27439c9d23947b"
+  },
+  {
+    "file": "configs/history/run_057.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1533,
+    "sha256": "ce0681665eeade2665241114bc8b1c1481fb0f10a31a00251945e1abe8869d87"
+  },
+  {
+    "file": "configs/history/run_058.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1536,
+    "sha256": "3763cd69d09b292a930d452255bea56e420692042ab65d771a9aa3922acd0f95"
+  },
+  {
+    "file": "configs/history/run_059.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1501,
+    "sha256": "28df249259976f7a76d3e7831d4ef2acb426ddeb869782d717a9ed418bcfc550"
+  },
+  {
+    "file": "configs/history/run_060.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1538,
+    "sha256": "c3e7ba98f03337788fa2dc9ebea863d135e0a779e43ef423a26b677950a5ea0d"
+  },
+  {
+    "file": "configs/history/run_062.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 6695,
+    "sha256": "2099426fbc2028e950b77dc5d05cf341472dcc0d44c9055ff5d5473f89ee2b8a"
+  },
+  {
+    "file": "configs/history/run_063.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4557,
+    "sha256": "d662046023fa00b2264e3a7c26b3cf535fb5e812597c3d3a9e4184830f96351b"
+  },
+  {
+    "file": "configs/history/run_064.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 7264,
+    "sha256": "682a51b3f7e070e8a608b54c2610739a5db4f375a4c27b5f7bcdea61e19df6da"
+  },
+  {
+    "file": "configs/history/run_066.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 6679,
+    "sha256": "292b54fedd508e1d6341f83d8f1442877da060b3df0abfbb122da9e51f16b968"
+  },
+  {
+    "file": "configs/history/run_067.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5402,
+    "sha256": "aedcd1851f11be6e49641381730d6620056038c88d4379dce2222b0a2da2376a"
+  },
+  {
+    "file": "configs/history/run_103.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1575,
+    "sha256": "20f61cc7b57d81551eabf194ddf8a43f7412399ab9a761afdff1bf6704e12d73"
+  },
+  {
+    "file": "configs/history/run_109.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3491,
+    "sha256": "7bfe625728cab2b2ad1f0be0af97ada75b9cd5849e4fff61c4c6f8c11a90a9f4"
+  },
+  {
+    "file": "configs/history/run_114.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1362,
+    "sha256": "2a044f3ae1027506b3c9afa85dd90c73773fc7b9228a66e158bf66692bb6e087"
+  },
+  {
+    "file": "configs/history/run_116.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1362,
+    "sha256": "8cf9ebab611815f307ece56369fe46f964a88633ae3c6c7a7e705c0306ab7d64"
+  },
+  {
+    "file": "configs/history/run_128.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4472,
+    "sha256": "063c51cb46e0edd6cdc4e2713dbd71b38e86921252bfee353b338e90dfec5d1c"
+  },
+  {
+    "file": "configs/history/run_130.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3076,
+    "sha256": "707e288b1e7c4d1a147de3c4f3291667eeea7e44ab8dd9952111fbbc882fd57c"
+  },
+  {
+    "file": "configs/history/run_133.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1575,
+    "sha256": "188e5f2a1c2fdd00d88738e53b15041375e4819c767eeb5fc1e9c52246093ab8"
+  },
+  {
+    "file": "configs/history/run_169.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1680,
+    "sha256": "20a10375d4639569f7fbc8f7b9fe91f5f8c42fccfe46fce4ae66e3f747c31563"
+  },
+  {
+    "file": "configs/history/run_170.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1575,
+    "sha256": "d1f80c9b70e26a36e800d6f32871a0cadda344d7815ca8fa7870599ba92847b9"
+  },
+  {
+    "file": "configs/history/run_182.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3076,
+    "sha256": "343688776e5e3d6a5ab7bb4ea6646220dc04ae5bf564767165caf0fe1e8b0e6a"
+  },
+  {
+    "file": "configs/history/run_184.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1575,
+    "sha256": "86cd2753f36301991b40f6c5ed4063d2471b9380befdba9956e93f0ebbb78f0c"
+  },
+  {
+    "file": "configs/history/run_185.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1575,
+    "sha256": "18f4bf52f83e37bc314df5613e5ea90de64b69f896c96e218f94ddbef75a0cfc"
+  },
+  {
+    "file": "configs/history/run_186.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1680,
+    "sha256": "b55526b28f08c717b7d2242d9808557ec0253521fe582fe672ff6d887fb24c25"
+  },
+  {
+    "file": "configs/history/run_188.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2842,
+    "sha256": "41461d119e4f2b8f366ed9bab6a49b70c7023758f4a308c4d373866e9c9c8863"
+  },
+  {
+    "file": "configs/history/run_189.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1563,
+    "sha256": "fa9af6c7c4675934d4a5cdbe5ecfc2608560839ef9ff8eac36f37fba07a3c171"
+  },
+  {
+    "file": "configs/history/run_190.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4123,
+    "sha256": "6a70fafd9b889cd73acfd7f4e01312746ce09912450da54612970ca1fb9f9c33"
+  },
+  {
+    "file": "configs/history/run_201.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2841,
+    "sha256": "f334769af03c2c691a067eb7e56c4734fd627d1411190bfa5f9361d5a9ddebd1"
+  },
+  {
+    "file": "configs/history/run_202.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1565,
+    "sha256": "c720641018cb9efb646c2d63be04dbdf064927627065b99b7f76165f8cc37a9e"
+  },
+  {
+    "file": "configs/history/run_203.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1565,
+    "sha256": "10aa4b8747aee5b981ce22cc82ba4ac24a1ef3faff7c928d385db57dad2968e7"
+  },
+  {
+    "file": "configs/history/run_204.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1563,
+    "sha256": "9a5258d5cf8b53154cb6f845f7ceb0b38700e1318e23f504f074d7a05cb7cd27"
+  },
+  {
+    "file": "configs/history/run_205.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1563,
+    "sha256": "842841a8f2135f25e487111169b750ab720d1ed1651c2e563d5c091596ba4e95"
+  },
+  {
+    "file": "configs/history/run_206.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1565,
+    "sha256": "a85254f40fe63250fdfde84dc85f58c19eae6462318888c747c90e72bd9099a0"
+  },
+  {
+    "file": "configs/history/run_207.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1573,
+    "sha256": "c63d4b5f469665d837c27c25969eb0d08e414c3bbe4c85b7a6893a80c4d9ddf4"
+  },
+  {
+    "file": "configs/history/run_208.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1573,
+    "sha256": "b102cf61803dd9107d9c48e188f20ddb24a821fcf81958ac844fc13eb3353ed2"
+  },
+  {
+    "file": "configs/history/run_209.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1571,
+    "sha256": "cf5376cea59a61c890f570d3d6c30b7e6f98a2feda81acce936f0459998acce8"
+  },
+  {
+    "file": "configs/history/run_210.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1562,
+    "sha256": "85c91fe1b056fa719060244f14d4626777e8abea40e40680e23cbf6045ece3a6"
+  },
+  {
+    "file": "configs/history/run_211.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1678,
+    "sha256": "400357c390a1282a8a648fbe5ac6a34aad783e98909f6a209202d4da1af3537b"
+  },
+  {
+    "file": "configs/history/run_212.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1560,
+    "sha256": "d7d1621918aaf13dec05198fc4d03bff5aa5f8f372972d9f56d69d08686ccc96"
+  },
+  {
+    "file": "configs/history/run_213.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1676,
+    "sha256": "7793aa437ae40adb01d9657996ac900f70f7a386b24a416d0a2961c78be352ca"
+  },
+  {
+    "file": "configs/history/run_214.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1677,
+    "sha256": "0099ae9c75500cbb883da888169005899c72de8a95f212ec41bd8211451d5378"
+  },
+  {
+    "file": "configs/history/run_215.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1561,
+    "sha256": "d2f99430ef9c9fb438c27eda6c88dc0bc8a76709cf75e568e4b08ff0a456cc4b"
+  },
+  {
+    "file": "configs/history/run_216.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1570,
+    "sha256": "85f9b8eabcce40c03e9549d2c1eaee1a42d6ceffa5b242f67a163bc6d56e94bd"
+  },
+  {
+    "file": "configs/history/run_217.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1560,
+    "sha256": "3194cd5d23743ac4848a351d79ce3e114d0f8b90e871fd47dc044fa68fdfefff"
+  },
+  {
+    "file": "configs/history/run_218.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1560,
+    "sha256": "d24c27ed0d90b7a7a67b4c1a3be4497541f098eaded888faddab9799f1394338"
+  },
+  {
+    "file": "configs/history/run_219.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1560,
+    "sha256": "4087235d9ebdd5d55c6a0e2c1e7a84a49014ef4b3b96dd08b3e2187881f1bc95"
+  },
+  {
+    "file": "configs/history/run_220.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1676,
+    "sha256": "c113cf76a40720e68bcb957595e14aa54ab1409dc6b609128e2b29e72b8a79de"
+  },
+  {
+    "file": "configs/history/run_227.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3075,
+    "sha256": "7b65af62f7bfeb36a8c84e60a06d360e500683ff4d124acbc2c4aa6c1d7ad44f"
+  },
+  {
+    "file": "configs/history/run_231.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1681,
+    "sha256": "f348f9f2d33821f06e8274855447634facd0bb58dbfb3f2efd493b16fdc73836"
+  },
+  {
+    "file": "configs/history/run_232.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1681,
+    "sha256": "dcc32cab86a5d891da40e71a01d6c86952d3ac936a20f95d534ca1bce73c525a"
+  },
+  {
+    "file": "configs/history/run_233.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1681,
+    "sha256": "fd74ce88747cb780f7f8aeeb5ba63cd4c1b5c2ccda98627b6dd126ef96e57cc5"
+  },
+  {
+    "file": "configs/history/run_236.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1565,
+    "sha256": "24b044c76b9ea735addea85b83c201c3cb6a4554d6f7dae16ac136add0888662"
+  },
+  {
+    "file": "configs/history/run_237.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1562,
+    "sha256": "bc86d44824bb0d5a017ed39dfa0b3aba1f4038a37ff36ca9a4cd7a11e7f84885"
+  },
+  {
+    "file": "configs/history/run_238.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1562,
+    "sha256": "792b8abe9d11052e87bfe11c1f08687ea8d223adb59100df61e417fac2ea6235"
+  },
+  {
+    "file": "configs/history/run_252.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4392,
+    "sha256": "f44a1ed8c198020b8ce20b52762d42346c412863a2bb0a3e989fc1058a81799c"
+  },
+  {
+    "file": "configs/history/run_253.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4399,
+    "sha256": "c416102574dce683e2553529699666c205e7550811c41596a98fa3623dd515c6"
+  },
+  {
+    "file": "configs/history/run_254.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4369,
+    "sha256": "e51d71681255b547dbf4eb541f345ff1f51d60d4eaabaefee0e48ad19633b6c6"
+  },
+  {
+    "file": "configs/history/run_255.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4268,
+    "sha256": "59418327800be7a699bcae9460f40e84f1f49a2be6e464fa271377d1d03d7407"
+  },
+  {
+    "file": "configs/history/run_256.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4275,
+    "sha256": "eb56324c435b34624795b7a7a2db08e8a3b0d8d95e0e64cbc17aa6cb710a67d3"
+  },
+  {
+    "file": "configs/history/run_257.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4245,
+    "sha256": "ba923e4e029784a29348e072a0ddb7f64f2c9161097d12ae24333b4242f70cdd"
+  },
+  {
+    "file": "configs/history/run_259.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4268,
+    "sha256": "a919de4a94abb8c336129525459db36b6097a203d261c5b37163509657190136"
+  },
+  {
+    "file": "configs/history/run_260.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4275,
+    "sha256": "6ca0de5bc6f5c5dafb4a3a4b38e692572a74c5c15e974b7aa85328842337e1cf"
+  },
+  {
+    "file": "configs/history/run_261.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4245,
+    "sha256": "95425407304ff57a14cc53cd48381fd005b8db80d66fcacfe27f7140652007e1"
+  },
+  {
+    "file": "configs/history/run_273.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4229,
+    "sha256": "c72cdd9e033ec111c29b8e5e9240d11effb823dde0d01e168943bed81578370a"
+  },
+  {
+    "file": "configs/history/run_274.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4212,
+    "sha256": "d8af2754fb2224851d5ec78c450e8ace44bd55ac68be7c2e77f83a309d9c5144"
+  },
+  {
+    "file": "configs/history/run_277.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4275,
+    "sha256": "e58e9cd31757130d797d1255d5f5e5bd4e564752aef4b506e1c208be0047e3d6"
+  },
+  {
+    "file": "configs/history/run_291.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4258,
+    "sha256": "60d650fa2c99ea4d7b7e5e370fb04dfa67cca7791d39c2dc922e901b30702ab9"
+  },
+  {
+    "file": "configs/history/run_292.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4265,
+    "sha256": "b3be984b69649524eb8a796b6d516139554e99f54cce1077b9cc37412c0cfdb5"
+  },
+  {
+    "file": "configs/history/run_293.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4235,
+    "sha256": "7bec3d06b1d8b5ad4423991711889b1f4d762e6940b99343e6e19cd42dc16fb1"
+  },
+  {
+    "file": "configs/history/run_295.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4258,
+    "sha256": "cc524cd6fc3224b2dba527b3e610308129ae006b395f315abc454acbb161c51f"
+  },
+  {
+    "file": "configs/history/run_296.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4265,
+    "sha256": "b19ba24f59ac23c174668364a1ff3c00cbcf94a78567715738a3d0219a3755b4"
+  },
+  {
+    "file": "configs/history/run_297.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4235,
+    "sha256": "1d5301b1b5aa16379201c35ef26e5d426fb4c1817373457f087682171940c3e3"
+  },
+  {
+    "file": "configs/models/AM_CVRP100_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1135,
+    "sha256": "651c6c283a5ec5db611c416fc6b59ef57e2c602eb830f6f8a2486636be920935"
+  },
+  {
+    "file": "configs/models/AM_CVRP100_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1131,
+    "sha256": "319eba045449c0fe8fac7a4baab329ea88cddbee645ff32bb53c63ff8f453683"
+  },
+  {
+    "file": "configs/models/AM_CVRP100_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1141,
+    "sha256": "2f0d4953bbbaf64e451ff5e4886b60708e35eb02deb6ec1089e81e589e36d13f"
+  },
+  {
+    "file": "configs/models/AM_CVRP20_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1094,
+    "sha256": "ccb352fe3ea20934bdd9e4385dd879cec6cc3843a0ffccb3d7f8b7f2e59d5530"
+  },
+  {
+    "file": "configs/models/AM_CVRP20_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1090,
+    "sha256": "84c6eedf8b3194ccabcd2bc92ddbefa62b1a3444cfae3f9260be3a65c95407b6"
+  },
+  {
+    "file": "configs/models/AM_CVRP20_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1100,
+    "sha256": "aff10dbd2072349bc880c8128e45813b6aca2b56e47761a82debb0ff4dc94774"
+  },
+  {
+    "file": "configs/models/AM_CVRP50_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1094,
+    "sha256": "0e01d6ded1333156ade9a14a3e241985f5898f472a38d0a42c59808b9518283e"
+  },
+  {
+    "file": "configs/models/AM_CVRP50_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1090,
+    "sha256": "862ee97a0b7b8fe1bd83e42dc3b5c9060c447684252c83679e31f6b3949229ad"
+  },
+  {
+    "file": "configs/models/AM_CVRP50_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1100,
+    "sha256": "3872759ce5b2329aa41574d6e6d0531409b3e7d1ee79a8e687e2c2cf0bc621c4"
+  },
+  {
+    "file": "configs/models/AM_TSP100_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1081,
+    "sha256": "b86198bf2295a6a7b5d26ade99ff7cd8eb32806f98c5113b572bd930f89a9995"
+  },
+  {
+    "file": "configs/models/AM_TSP100_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1079,
+    "sha256": "95bc39870aa34b448a5bacaa7974a1c58c2bacf4bc3d2637954e377b84dceeff"
+  },
+  {
+    "file": "configs/models/AM_TSP100_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1100,
+    "sha256": "777ee3bae62bba95e2306580a94b441c6c3d567a81317de9c6e400e886169671"
+  },
+  {
+    "file": "configs/models/AM_TSP20_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1091,
+    "sha256": "379c03b2037e205a0dc288d46fc43870acefde7b9ec016b9755409d70a7f5275"
+  },
+  {
+    "file": "configs/models/AM_TSP20_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1087,
+    "sha256": "a4c05ff0f0116d00d8ed23bc0059b846ed73b9bbf845d32a1a3f23334b89cce4"
+  },
+  {
+    "file": "configs/models/AM_TSP20_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1097,
+    "sha256": "a3c90084dfb4c705d7e2a72fe3de7fb18a06d31554b304ffa27ba6250bd5af45"
+  },
+  {
+    "file": "configs/models/AM_TSP50_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1091,
+    "sha256": "3353b16ec6b3eef0c0260c3759178c76e71644588351f025c68730e0e937ded1"
+  },
+  {
+    "file": "configs/models/AM_TSP50_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1087,
+    "sha256": "cb0674bb39eaec67057a16431eb26b5a298f452d86d02b47c7d9bf826ff2b340"
+  },
+  {
+    "file": "configs/models/AM_TSP50_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1097,
+    "sha256": "d5544e66055178a1a95a99f506c42eeef0f42485da9487820313aad1d32a15ea"
+  },
+  {
+    "file": "configs/models/POMO_CVRP100_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 204,
+    "sha256": "81086a3d5f9752b587e0775bc2cd153614834845e1f0ca1f100002d2f6ea14d1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP100_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP100_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP20_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP20_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP20_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP50_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 204,
+    "sha256": "81086a3d5f9752b587e0775bc2cd153614834845e1f0ca1f100002d2f6ea14d1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP50_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_CVRP50_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP100_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP100_Full_AR_Run01.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP100_Full_AR_Run02.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP100_Post_AR_Run01.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP100_Post_AR_Run02.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP20_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP20_Full_AR_Run01.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP20_Full_AR_Run02.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP20_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP50_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP50_Full_AR_Run01.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP50_Full_AR_Run02.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/POMO_TSP50_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_CVRP100_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 204,
+    "sha256": "81086a3d5f9752b587e0775bc2cd153614834845e1f0ca1f100002d2f6ea14d1"
+  },
+  {
+    "file": "configs/models/PO_CVRP100_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_CVRP100_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_CVRP20_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_CVRP20_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_CVRP20_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_CVRP50_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 204,
+    "sha256": "81086a3d5f9752b587e0775bc2cd153614834845e1f0ca1f100002d2f6ea14d1"
+  },
+  {
+    "file": "configs/models/PO_CVRP50_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_CVRP50_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP100_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP100_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP100_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP20_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP20_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP20_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP50_Baseline.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP50_Full_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "configs/models/PO_TSP50_Post_AR.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "ac30b9ef4b1846284c3f1136312dccd94ef16cf68418d3b80107585a5bb3b7e1"
+  },
+  {
+    "file": "datasets/generalization/formal/tsp100.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 801506,
+    "sha256": "da6af22c1e4cbefb640afcc639d8c422226a0fc1cfce02d2094b6e44d31d7091"
+  },
+  {
+    "file": "datasets/generalization/formal/tsp200.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 1601506,
+    "sha256": "75dc8ce5e21ab217f456d5f3497eb3545aad1de2bdd0aef17033b37d75fa8c88"
+  },
+  {
+    "file": "datasets/generalization/formal/tsp500.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 4001506,
+    "sha256": "9b64f0889c6b91ce082e630fe379bf3790ab036c048e1edf0343f4aca7de5f0e"
+  },
+  {
+    "file": "datasets/generalization/smoke/tsp100.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 9506,
+    "sha256": "f97a3e786db5ad289eee9cd56e0e231a61be12ac35b95839b2c87566ac57834d"
+  },
+  {
+    "file": "datasets/generalization/smoke/tsp200.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 17506,
+    "sha256": "3bfb7f8469fbaa0720ee2fbe5209a5b5bf918b6438bffe21a584a50310a16c1d"
+  },
+  {
+    "file": "datasets/generalization/smoke/tsp500.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 41506,
+    "sha256": "1397bdb8556282a5b693ec5636898503e15c18e1ac066c6ff5202e6b7d78ae33"
+  },
+  {
+    "file": "datasets/manifest.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2828,
+    "sha256": "2980d6d51707f00fa5ca505d209e72b24cfcdf1200d9dd43555ad23b4e1f13c1"
+  },
+  {
+    "file": "datasets/manifest.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 7203,
+    "sha256": "a547a32ffe5a105b40b2c8eb7fa0dd5be20efd09b15b91eb3d48de39f2329eba"
+  },
+  {
+    "file": "datasets/reference_manifest.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2940,
+    "sha256": "ee5b9048554b24516073424bc6470a67d421a1e55368c55829c5b3c7e769c822"
+  },
+  {
+    "file": "datasets/references/TSP/lkh_summary_size_20.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 89,
+    "sha256": "b4727b228aa8557e86ef0f5d3de50fd1025232643cf6551615869af9e6375945"
+  },
+  {
+    "file": "datasets/references/TSP/lkh_summary_size_50.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 89,
+    "sha256": "289de48b50fdcf0aad3c55811d690763ea811fb3a074f47ec9494d136357f789"
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_100.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 91044,
+    "sha256": "36c55b82d039d31b042c46d09538f1e8c19e18c2936c7a85687498090130bd11"
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_20.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 1257913,
+    "sha256": "adc0ecdaffd56e0481068a8f252820e1a0d2e2e0b00e51e4afd45d2e3c3d6360"
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_20.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 91040,
+    "sha256": "4cd576b426b2ea099349e75d9550ef1852c5653294dea327033df239fad1a327"
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_50.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 1257931,
+    "sha256": "25c6e688e12b1d400a68ee46e2f617c7b6c9ddfacee07554c1aaf8089e2b48e4"
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_50.pt",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 91040,
+    "sha256": "7ab834a7b2ebfb657185972435610e4ba7d88aebd3807818065c39756d55f4a2"
+  },
+  {
+    "file": "datasets/references/TSP/size_100/ref_lengths_lkh.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 1258043,
+    "sha256": "c0676744084f25bac9497b73828292f0885c582c797882300105ce3f3e2aef25"
+  },
+  {
+    "file": "datasets/references/generalization/source_hashes.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 456003,
+    "sha256": "96716f1f1e714464a26630b846d3452ff5ea91afd0e8b3c0bc6f33c6d79d9899"
+  },
+  {
+    "file": "datasets/references/generalization/tsp100.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 1347219,
+    "sha256": "55be87a26af358544c95288e7625328bcf8c9fc75c329148a8c6f870783168f5"
+  },
+  {
+    "file": "datasets/references/generalization/tsp200.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 2450055,
+    "sha256": "76ad3008d52d36d0fb329b4959a99064a7372d85eed25b3eb3aef97fb7ec618a"
+  },
+  {
+    "file": "datasets/references/generalization/tsp500.json",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 5749769,
+    "sha256": "412860bfb9a2a73f5e06e7c917f211efe048d4e49a7e43d14c3f301c3e16e00d"
+  },
+  {
+    "file": "docs/archive_layout.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1509,
+    "sha256": "4fce7eea1314292b04daaa335a2db5cdf58723fb0d8c7ae66c4d2f6cb97af349"
+  },
+  {
+    "file": "docs/reproducibility.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 4972,
+    "sha256": "d7582959a5bf24a08837a82899e7f53d7a9b54c224c19f8b8e57d75582698739"
+  },
+  {
+    "file": "docs/requirements-cpu-lock.txt",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 445,
+    "sha256": "745c228012290863185fc4f12387eaba5288d547b92393f1d676c6cb24937178"
+  },
+  {
+    "file": "docs/tested_environment.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 302,
+    "sha256": "2b136195739ec704c05d338a5ed97e0a91231e6896bd37ed00a35bb2cb114cf1"
+  },
+  {
+    "file": "docs/tested_environment_cpu.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 189,
+    "sha256": "ce8af13468c6eaf8a9eea93e034931d0156c4899d5577617da5a19c217afe18d"
+  },
+  {
+    "file": "docs/third_party.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1549,
+    "sha256": "5bca0d0cb45956d30740c95fe0a7c98d42479b0617d3553ab2d9e97e91120c7d"
+  },
+  {
+    "file": "docs/validation.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1908,
+    "sha256": "c43e8c82db2a301dc367628cfb40144654653eace2f43e1bdd0bceaa4b9c9fc6"
+  },
+  {
+    "file": "figures/attention_combined/attention_weights_tsp100.pdf",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 17176,
+    "sha256": "4bad274516032f6accd0a77f5ab1d95bbf55d84612cb94ff6d24a9a545acfd7e"
+  },
+  {
+    "file": "figures/attention_combined/attention_weights_tsp100.png",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 67363,
+    "sha256": "181c27ca17d16d492c97cd02199636a5746829190082d76d96652f89172bd4f4"
+  },
+  {
+    "file": "figures/attention_sources/attention_weights_tsp100_13source.pdf",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 18668,
+    "sha256": "9867345c84fb7b42d6b965440ba084be773de01ec4c6ad8f88fffd7367a5f73e"
+  },
+  {
+    "file": "figures/attention_sources/attention_weights_tsp100_13source.png",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 89015,
+    "sha256": "65a7f3fd15b967684f70b18348b07883ee9b835c56b4174998b2e04aa2094469"
+  },
+  {
+    "file": "licenses/POMO-MIT.txt",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1081,
+    "sha256": "d387ea3a13ca55260b204654a6ea2934af1a4840b65193d7e265f402fedb1338"
+  },
+  {
+    "file": "project_paths.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 419,
+    "sha256": "80c22a894e13dd347ecf1f2942e8b84353284e99a68d2d30c18fd1c40aa8178b"
+  },
+  {
+    "file": "requirements.txt",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 67,
+    "sha256": "6ba14283ed5e2e82f69dcf546f5f62eec72d99b8509e819cf203c6a96681d676"
+  },
+  {
+    "file": "results/CVRP/paper_observations.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 16123,
+    "sha256": "bcdd4697c542aa90790b684d6ee78580e10acb91cffa99d114e1fa1626666dbf"
+  },
+  {
+    "file": "results/TSP/paper_observations.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 48591,
+    "sha256": "ff42fe845b979c99d16085c7f38d214abc416a074bed9006a71ea73c4faf7441"
+  },
+  {
+    "file": "results/ablation/README.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 336,
+    "sha256": "d8c61a8c12408877d0bb410ce0b35a3e5384aca30561338cf10f67c5d5ad1e3e"
+  },
+  {
+    "file": "results/attention/POMO_TSP100_Full_AR/analysis_config.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1039,
+    "sha256": "acd691f8a270529a85a99eb05219ef48f7f1aa39eff9d488921805e5ec034867"
+  },
+  {
+    "file": "results/attention/POMO_TSP100_Full_AR/full_ar_13source_summary.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 447,
+    "sha256": "0fa7727a7b2d40bd54060666f2e6190e7d4f081e72f0c2f2af1bb4ae2029f171"
+  },
+  {
+    "file": "results/attention/POMO_TSP100_Full_AR/full_ar_grouped_summary.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 300,
+    "sha256": "795fbf0db6990cd7f2034893cd4b80322da15889499a1a5cd53cf53fc676a5db"
+  },
+  {
+    "file": "results/attention/POMO_TSP100_Full_AR/full_ar_grouped_weights.npy",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 28000128,
+    "sha256": "5edab6dc7d75a1724fa7d7bcf0caf86828587c6f0294c3ae3de5996b7f9df68b"
+  },
+  {
+    "file": "results/attention/POMO_TSP100_Full_AR/full_ar_per_instance_grouped_mean.npy",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 280128,
+    "sha256": "3476900ddb70a6f712de803fe715a7c3ddce28887d82aed2c996eefbb231bab3"
+  },
+  {
+    "file": "results/attention/POMO_TSP100_Full_AR/full_ar_raw_final_ff_weights.npy",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 52000128,
+    "sha256": "c017f4628b77f8fd62fe9917939b0d78134041b169710fc893fe76afbbfc1194"
+  },
+  {
+    "file": "results/attention/POMO_TSP100_Full_AR/full_ar_source_order.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 216,
+    "sha256": "305bb33a73d604de6469ca6cbe1c2af5ea9531108eb00e04cd4d5a3c56506f77"
+  },
+  {
+    "file": "results/attention/PO_TSP100_Post_AR/analysis_config.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 909,
+    "sha256": "c1b498902c97f0565d6807a1310a3f72d0e292e18ffd0c3118379ac216098a6d"
+  },
+  {
+    "file": "results/attention/PO_TSP100_Post_AR/post_ar_per_instance_mean.npy",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 280128,
+    "sha256": "f25e40d2731f79d86955404d7b095f13304eac47a022f3dfb94dd23db48602d2"
+  },
+  {
+    "file": "results/attention/PO_TSP100_Post_AR/post_ar_raw_weights.npy",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 28000128,
+    "sha256": "c6d1734258007e4afb354e83d378cd5769be38a75ff89a4a946d0bb73bd5de8f"
+  },
+  {
+    "file": "results/attention/PO_TSP100_Post_AR/post_ar_summary.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 300,
+    "sha256": "1e567771191c53fc748f1b2d663bf5ceef2da4c7bfdf6c0f26ca43408dabc949"
+  },
+  {
+    "file": "results/generalization/all_per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1884262,
+    "sha256": "6c75ea1451b2a9f3769712225a9cf771d57ec3169f653c60dad40644566775e6"
+  },
+  {
+    "file": "results/generalization/checkpoint_training_history.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 230,
+    "sha256": "b93de9921b32edac2304519eb7379627050ab704c378a97ef4ded780bf6389c9"
+  },
+  {
+    "file": "results/generalization/quality_table.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 298,
+    "sha256": "501928071ae7dd82d4113cdc9b5837e679867dcc317f6fc7cfcd4d8879348779"
+  },
+  {
+    "file": "results/generalization/quality_table.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 360,
+    "sha256": "d02dd26fa2ef78e70aea6cd6d36ec8f58871312acef0f1cd7edd99c9102b5e62"
+  },
+  {
+    "file": "results/generalization/summary.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1160,
+    "sha256": "74214588c94d60495d99d8450e8f7772ae75b8990772ce5d25302bcb744c9c07"
+  },
+  {
+    "file": "results/generalization/timing_improvements.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 749,
+    "sha256": "1f30238d3853b1cb0b6105550273e07ed8e47b66aa7347c694fb56311d6f4c67"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20938,
+    "sha256": "8e39db1986e28266adde4eb0e5f1c907e2dedf1a556089b09ba6d9ce6e5abe90"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 21005,
+    "sha256": "47b109f2ddcb372d279330bde7493d6960a6629b96c3e547c75394a9f5d2c83f"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20944,
+    "sha256": "3299303617a725d1c09c93a5c7ecb205cb32b3875b0ed6b07f95de49eb849eda"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20963,
+    "sha256": "1dd90be33ee7caa97bb1987b16c1d54849a856fdc1f84ed8c2f235bccfa30e7d"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20972,
+    "sha256": "6404cd67444a020bdaf7b98f5471670902eb99075f728a66f9fc9482c40b0000"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20958,
+    "sha256": "e3333ca36b1f5924abf08f23837257f68d75aa022936c0aeebe4677bfaf61c54"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20921,
+    "sha256": "042f6c9747a55f28339de760f135bfdd60e8eba0c4eec1d1ce7b7d09ca20245b"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 17470,
+    "sha256": "084e0392a2527a693312930c85e2403502567a95c1d0f24f6f2df9af4c099775"
+  },
+  {
+    "file": "results/generalization/tsp100/baseline/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 208170,
+    "sha256": "fb8ef52d488c1f9b6be378bee152edc3cb18ef23db17455d549d4740439aa6b2"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20970,
+    "sha256": "5cf72f695afca912962ea4981be492a5c8c86364307a4e44bb20dcae16010511"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20969,
+    "sha256": "20fa20d65a68f14398fb90bcbfb69166fd0f48f5cc07430cff1a69267b635f1a"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20943,
+    "sha256": "295410fcdca25910e11bfcb764d900bf723b0b12a83efdeb0be48126d33d2125"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20985,
+    "sha256": "1c5bc3337ef08ed6c41da54ecc32adef6b9ee5b93a21b56295adc271aa59578e"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20952,
+    "sha256": "71771585bedcf55a6c2992c35811081b6d08b8b6f77257d544b93c3b268c5380"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20956,
+    "sha256": "e24a6ab9545d49c9d0a7c4ef1e03475bf57f1021d5be4ad43071594ffe7fc1c8"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20956,
+    "sha256": "24c68bfbb5d115fea91524a4cbf3d468231974bb18766ae41877120fb2588f9d"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 17470,
+    "sha256": "dc3bde38a318ef62d2732404643c1658200c6795255e0667051a9889b076309f"
+  },
+  {
+    "file": "results/generalization/tsp100/full_ar/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 209187,
+    "sha256": "60ad585b35f93cd05460fa8f31a9e1d966b0f03e72013cf1407553ec9d0c67e0"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20959,
+    "sha256": "d06b77b41412a36744cc5577c25225e367219ae4510a091daacdfe84f987e4a6"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20973,
+    "sha256": "0533eb6f9dbc745a2bc4ded48c4c26100c4d82443838ca01bb24e8c7710655b3"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20931,
+    "sha256": "640e69654dba8ce28d968eec3600782147782cefb13949e298c553b669ae162a"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20983,
+    "sha256": "7ae630bbef5da29f93ca5c85d123b078a93aa4e2b9e6f7274b7c492a93cfb283"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20934,
+    "sha256": "e3ebd677f31a2d51aef4abd294353b0a0bea0378c033ca7c7a359d94d34dc00e"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20952,
+    "sha256": "89c6c8e42f19d98dc181b9c801deed9bd7e030149c2f23ee63b20a42ae6450a9"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 20928,
+    "sha256": "c7c19418c49dd8394a5941e2dc7627f4bcd98edbd1f5eb892b94609bce19775a"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 17465,
+    "sha256": "5c70e6184adb1e023d93d8024a515c7b7f3481693759e90bec4c19af1d4d3a5f"
+  },
+  {
+    "file": "results/generalization/tsp100/post_ar/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 209184,
+    "sha256": "a9153cd58b4297f1e386ce1fca2153964babfaf6d277678a0a178b4b647864d1"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22531,
+    "sha256": "71ab122986f40b9d7621c236d93b2c92796f009f932fdad4d1cde3447a8a748a"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000064.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22538,
+    "sha256": "f5bca6f3a7f26ab8eb9780b48e6c9e9406cef8b3753cc8469775f0efb49f11db"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22555,
+    "sha256": "4d7aa8fbdb65346ea31247341bb5d6f5b265dd54bdb810d57a19cbbc3a046b26"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000192.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22525,
+    "sha256": "1d16e207f0c513bbbef84f9810566fa4253ec78a5a7f3cafdac905e642b48dc8"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22518,
+    "sha256": "bff9a839044cc6b45a5277cc74541d506c7d590764f01ad6229fbee74ac671ca"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000320.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22514,
+    "sha256": "ffe3b55c9f77cf93ef8075316efe1c11af927c27189b48375051df7798312504"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22535,
+    "sha256": "2f7c0d7ec08c807969137b483ea79acb056dd7478bc668c8e35c39bcd277b63f"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000448.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22496,
+    "sha256": "2719586071020828748edd6a7e6f350cefb3e6dd31c07155541543fe975789af"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22540,
+    "sha256": "ade97b37c6da53185fb4801a9c98c953f203bac46657115e4db59d4b41632398"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000576.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22504,
+    "sha256": "3044b9b21570d76e9fd86340f1385af0c27c30b29c7d6af2eb2d0c54f64ba90a"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22537,
+    "sha256": "704e3fa509bd5634c266faa3290733c412436b6bc9535e7880c4509afaadfc2d"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000704.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22519,
+    "sha256": "d5755d1a19af7b6d6ab8a27e59f78026e59d3c24288cfd7be51557bf82857409"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22500,
+    "sha256": "abf7edbe2e45d1f3c2708477eab759b9b03672b59024a4712c5a0811c4a3b93a"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000832.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22515,
+    "sha256": "b50854ffa347209e55f1d08f589232567a625d72e4e9a5f70a48efb8be334800"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22569,
+    "sha256": "bdf19358a0e85e881ef84b0747b20ce6f904e8b65ad21c9b1977a0e755f89abf"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/batch_000960.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 14880,
+    "sha256": "e4c8e3e9d56a76f8b5304c1d63a54a9f37cdd73bbae7cd2655aac92dafa82689"
+  },
+  {
+    "file": "results/generalization/tsp200/baseline/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 209146,
+    "sha256": "cfb54488d5e3ca112286c4354511d1b5d9021aa0afdb4e1d66d4f16efedeb5c6"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22543,
+    "sha256": "ad219c081dfcb30c1bb4790c06d00bcbee8f634089448ac268b519a163aab005"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000064.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22546,
+    "sha256": "97a5c3b7eb7d718ef94ec25d713bc454a68ad8e01c4b190beddd3652d5b2f9cf"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22531,
+    "sha256": "5d6dbc96f15e7d0994510d4bcfe81419caf4f350a521f41e8472b8c0f9a1a0b3"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000192.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22544,
+    "sha256": "543eba74302bd7717d769bbd92325d4b61be69e9986cee4efadf5c074b5909e8"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22524,
+    "sha256": "86c9fc09c5abb85993bbce16e3f71c4292bbb008c8e088b56d0b2cafdec180b7"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000320.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22533,
+    "sha256": "c2da232154a788cf38903e4710d0cdeea639aeeba29e2b78ed716c733defd098"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22517,
+    "sha256": "ae9171be3b599f21940780705ca35f32129dcc2cbf3ac7d5d6e39866a3e00aab"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000448.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22534,
+    "sha256": "55d4dba4d57dfd19229941be1d056da7a64c96282cabe61db0b86fc1982f4451"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22513,
+    "sha256": "06933d5a007937facf58309c1f60dd398227ce2b951c7c292569fc5f3ab93879"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000576.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22538,
+    "sha256": "a7dc722355bb57938564ab50f7bdef145760ce1d7a59b742ae63ea95413bf8fe"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22528,
+    "sha256": "860e792a83db59a27d66a4f784beb41b5bee6494a8ebf328dd0d9d791690ae64"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000704.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22532,
+    "sha256": "3d4e8c6984416a6aff5bd513da39860153189c928389dc3dde8d792428bb6f0f"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22524,
+    "sha256": "979546c20368f83c4ac9a52cc393cd6a94515c710ad0e98cbeca999b75c73db6"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000832.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22510,
+    "sha256": "bc802db71f8d4ab8488b757f083a65b4fec9e0269a5dc0b9e5d32c068159acd6"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22540,
+    "sha256": "145042527937ce374b3d8d184c319d67b5aba630904d374cd7c38b5f46ae0d04"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/batch_000960.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 14891,
+    "sha256": "ce762940ff7443fc8c1304f02c4ca9c8cdbccc4ea6d927ffb3c53aa899ee6494"
+  },
+  {
+    "file": "results/generalization/tsp200/full_ar/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 210230,
+    "sha256": "3a5b61a1ffc039387f4f5f83e9eeb05ade3f669ded2d2756b31b5f19b4511313"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22524,
+    "sha256": "af1d97c7991f64445657edf596a4922f1a6108281b623885c9a0108a448a2e0f"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000064.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22530,
+    "sha256": "ee0ae75d087cc8f30506f9e966a114f9238014efd8559ee275490d2b93e3217f"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22522,
+    "sha256": "22484fa27a1cf47b0044f882e0f976d9de5e33747c2f4901ce236d6fb3c474a1"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000192.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22540,
+    "sha256": "0bcdc1a18467dbbcd90ad0fc158f859499b7004646465652f456375bd6956dcb"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22526,
+    "sha256": "8734b0d55cbf5ecffbeb2e6f54d703d4efd4a9101d79d58c270c80d9c17f6b6d"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000320.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22513,
+    "sha256": "8e7367a36849336f128c32328334cc89f66196cd2ee3ca94a710e78fd40f3854"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22528,
+    "sha256": "ba3558570a11b32b625efdafad753c0dd2e0925003f90f3646612487ff71e558"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000448.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22505,
+    "sha256": "f556a58d8ec1e9101bddb3e0e27943ffed861147af4559886b73adc59f10ff6c"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22525,
+    "sha256": "13082a508c577a8a60cac959c378c54cc3cdc5677b1741fa04edde41b7d099e4"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000576.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22534,
+    "sha256": "61d9870007a3125b37e3674cd3233ebc85747ddd93e7779cad2f7d52940fa2a2"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22539,
+    "sha256": "60d1c81f4f1ea66de73e52a8f12ed3e18148f1901fb28b21ba19d1b8e1a14ede"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000704.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22535,
+    "sha256": "e582a5c780f10b316cd93f8ad9fb4f351da6965013f582831f1c631177080639"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22524,
+    "sha256": "eda7c0e785e962437f2b6f103d88e4627a4528c21e26be8012863db1a6d8d8ba"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000832.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22500,
+    "sha256": "9021b37cc57933f6eb06a5aa9216645bacf63e3d55f31718d234bbc76d44a25c"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 22558,
+    "sha256": "64ac15d478375906ab5581273b5cefa076cbbdf5d5e5068bbfc76061581cd03a"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/batch_000960.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 14886,
+    "sha256": "2a52357cb89c1331f5d2f33e137533b5cc37592b488405cdaf66a95a9c2e12d5"
+  },
+  {
+    "file": "results/generalization/tsp200/post_ar/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 210228,
+    "sha256": "e3ce5cc8ce76684ff47bb84e251a49b7d3f208886c25b03483012fc1b021d9d7"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30665,
+    "sha256": "a8f36420a93f4da354680634603557f0875a19a7ccf341e97942c72885c5e40c"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000032.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30674,
+    "sha256": "6de4b77e0fee20d49cf60327417cb369db44de5e7b976f59efbb331dafdd6933"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000064.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30638,
+    "sha256": "889c6ef49fdb84d3d9bdafa6d6fe6c083146e3a7839f5c37c1f35022d82886f2"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000096.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30697,
+    "sha256": "4210803555ea910c98a3c9c978c06bc6b578e251b1dfc3877f0ad99cdb0d0ec5"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30698,
+    "sha256": "47dec28e756a31427a2e4fe7d0caaa4a886e3e1051cf1197c68d7b9fd88e2c29"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000160.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30673,
+    "sha256": "13072e168bc013bb0e1351ee1d766a007deef577cb0daf8ab0e9e9e3b230556a"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000192.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30672,
+    "sha256": "c33e873120cea9677043f7af1205b4f142af16d8fcf40a1b61d56f1a5bb3351c"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000224.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30679,
+    "sha256": "2c9b2b36a92e86c1c4bebfdc3b824bd0b1445b64a9a698bf3a656b5a92eb41bf"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30692,
+    "sha256": "20ce95a8160e90d8856ee78e5e1159921ebf3f5d84801cbf21b5d6820de87505"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000288.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30665,
+    "sha256": "7adc3f56aa2e417b4ca04cec97fc163e54e20173894220f0e0cfd5f177e59ea2"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000320.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30679,
+    "sha256": "05a6c56e0ca144046da7f4a4199a50aacf817b53a5b5864d918207e46abcb7bc"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000352.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30687,
+    "sha256": "534a921ac53d444ad0fb116b1f9c204c7602b1261b50e8f7b42dd861c8977257"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30680,
+    "sha256": "c9c8cfd5fca7a2429a5134b4b795852e29d69ed4fac54bbc45d7ae31f67d9959"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000416.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30696,
+    "sha256": "4f871c3c8cb46784e5394e3092d25ec7b6ae66f8a7929a8463284135fd91b573"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000448.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30710,
+    "sha256": "067f781307e1f8845034cc7a6aebff09334791a88ba033f4e42bcc2fc992d5a9"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000480.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30658,
+    "sha256": "1f71f438fc0a674a22a90eefc391d9eeb109f81178391e8fceef14b3faab64c5"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30714,
+    "sha256": "4d2f142b08ee44ca86ab8ebefdf63c2feb9ea85f8502a792cb437c4e0bbc9ca4"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000544.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30654,
+    "sha256": "a0ac89a1ebc6a64feeded3144a022ec8f24ce62957445b96060591b010e916ca"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000576.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30679,
+    "sha256": "43d9142eab5ccbe43a9ac4ec36e0ff47993b7efe24c79083b679f8eb20fd77cc"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000608.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30691,
+    "sha256": "e69d95a562958b961501c1361fb3176f93757c378acf71d23663faf410775d04"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30658,
+    "sha256": "9c8eba4c012ad30b906f22be6551690b417d7429b8b1ed97f34eef4cf65500f5"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000672.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30662,
+    "sha256": "e545f7f0e01ef11b3c4779e014953f72e6af2b3a138dd74813b5b7067cd441f4"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000704.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30702,
+    "sha256": "032682d1ee1bb58e6e836c77f4648164e1aee8ce34906922788ba0e964d71a60"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000736.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30659,
+    "sha256": "c31d34b686ab0d0086b2fe0a463f64931a3b708349e4282568f2e879048f746f"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30678,
+    "sha256": "bcc55976fc303f444b58f4ee466bd98762fafe1ca47da74d80ff3bcac8190cde"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000800.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30676,
+    "sha256": "daf50e150ff47c4fa0c2be23fe9fa445b8c37bb774ca7b827926f0aa3b519ff7"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000832.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30687,
+    "sha256": "d0c7d426b21aa09ac703542203c5c06454ff039057ad086aba2dda366341221c"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000864.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30671,
+    "sha256": "827b4b4e9212397f2315baa7ac405652e8bca07a2a4982a14b62d704953398b6"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30705,
+    "sha256": "d356636d5298f3a5390a3860d2290c958a052dccd8aa6875d4635a8b19d2651b"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000928.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30659,
+    "sha256": "ac0df59e0c67744dfe86821e6dd082fff45b39dd564ea426a3f5614bc8f24eee"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000960.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30691,
+    "sha256": "bc447e8662b12a88dd35b62505e8c44aea3e7ee1f53da541e24610cf90f86fa4"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/batch_000992.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 9286,
+    "sha256": "ca9cefb3d03b4e7e33b562ec9c1ebf773bae7372bb51fa591de5a5c76c51a717"
+  },
+  {
+    "file": "results/generalization/tsp500/baseline/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 208967,
+    "sha256": "bd32a821c098ca88fa5032fed2c80c6e7bfc736e02b275fd47689869d067aa58"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30722,
+    "sha256": "266cfe269fe8989d64e3f39d76f18d2249399ba11fc7a5c93ab0aa10f35ca198"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000032.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30704,
+    "sha256": "2dafcd358cc195509e9cc70a6258560956053ae5fb5b429b99f9522f19d21e95"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000064.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30680,
+    "sha256": "bc746654a128d8eb42cfdb4ad202c7cf1820c5484848db8913e6d8817b15a1e8"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000096.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30676,
+    "sha256": "806f3be5b3f73be86694582cc71c0367bcdd61b7d7e33a036ef6ad9e84e15be3"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30702,
+    "sha256": "efdc9d6355211dd1d5b5812a230c561eb77e7e536b22a17edbbb90c2a4ec429d"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000160.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30705,
+    "sha256": "4ea53f9184e867ad165bdd48ceb06b382fb5d5a2d1d7aa2749a51a49c9678dc3"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000192.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30663,
+    "sha256": "18409798d839f045b2e7d6c11cc6c2b8cfde71adf4a40f0b0d78735e5044690a"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000224.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30704,
+    "sha256": "3724cad6f631938010e8160fff9091ba95017d33faf21878d0b1997871165d69"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30698,
+    "sha256": "ddb37172c30e355610d45e39906a50ab0df69203a049301d05e0edcf213e2c6c"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000288.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30714,
+    "sha256": "c74b483f039ce52687d1e3f009ca551e380fe00dc0102c21c2940caded25debf"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000320.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30679,
+    "sha256": "0b2db60e5d28d67dc0652edf94d4fbf7fc2267836278e4bc1b95ff24bee798bf"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000352.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30653,
+    "sha256": "2dfe61d360b0f60dffecc1ecb71c3c19ed4628dd7dacbcb5a0088c84d2c76d0f"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30657,
+    "sha256": "1c99bd00e44388ffba3342e678d48480e29091ba1f63e32c7509cf834429c9b5"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000416.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30709,
+    "sha256": "dafda26dff20266e5716b8e692000127c1aad22e9840510772336de1bf15d2e4"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000448.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30688,
+    "sha256": "0dc6a7cf53ce59ac8580132c657b092a5573e6e75549d365cedf7f54635b6536"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000480.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30690,
+    "sha256": "7543c18b65cfae5c57d4da9d8ea14c99a9aa50c975094bd98a9ed71dcff68eeb"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30671,
+    "sha256": "1d26fab676fb2df85168cf9a9e46e0335ffcf86aa2583adaa17626fbb56a6c45"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000544.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30642,
+    "sha256": "71ba1f62810becdf21a1438d159cb1fd5fa3102ce740f2fc31b8f88853b15ea3"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000576.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30665,
+    "sha256": "bbc9ce2b0541013a279baffe55492580ed33e01881b260be4d45dba1ac566bf2"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000608.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30653,
+    "sha256": "e61107f9367f3ef4179adb78e5f07c75c8d6fad5264369f9ba9beb2df5fc0c2d"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30657,
+    "sha256": "3f2741213a4bb806995cfb399c88e13d7b1d35b4bf566157a0b70871172b160e"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000672.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30674,
+    "sha256": "4680ba549efb230243abd1e5f0293f33d6274752df6ec20fffcdee3f3f0600cf"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000704.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30671,
+    "sha256": "2120844fac4930759a3da7d22dfa065e919bddc8c82b4f1b7f3215552efe2f23"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000736.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30713,
+    "sha256": "afb8f6f8bf67f54aa9ea188ef14c138ca89a2d5d47610161cb079d63d83d526d"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30702,
+    "sha256": "1da976872bbcba3cfa4a676dbda196baec6b554a196ec92ae5e5abfa079d7fe4"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000800.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30710,
+    "sha256": "3bb90e8f4c1d603ef0ac5470449544f4906bca55524ccd37984029114765f5c2"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000832.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30677,
+    "sha256": "688ec0a0dc2228a24506c1a0a8b9045f2840c7ba735a9b370032206a4d4581af"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000864.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30687,
+    "sha256": "d3420bba83fb16bf2d641acb9748502d5416cc800dab87468448f6c80ceb4dc9"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30698,
+    "sha256": "880eec3454985aa24ddbfdd176b38ce7a3443f21b6def061bc9f1115e3456ef1"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000928.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30684,
+    "sha256": "80156fca8d7cbe96757705a529bd64556482632b0b6faa4291c6589337677a26"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000960.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30703,
+    "sha256": "27e2ce321f576c3fbc719e9ee7c027a5186d53fa2921bffb2c8fd3c7da333d74"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/batch_000992.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 9296,
+    "sha256": "301141001b77c2e6e8a0a75e2b3ef322e1d585a0a25aec910fc43d4187ba2a09"
+  },
+  {
+    "file": "results/generalization/tsp500/full_ar/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 209978,
+    "sha256": "c87e712e23d42261c532b3ead4f95a52929de5bbfb40db3dc2bcf136145c6851"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000000.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30691,
+    "sha256": "0a933e82570e2c1bd7c6365d401bc27931cef8d24d6f271e8a8ed7ddf91a3bdb"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000032.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30690,
+    "sha256": "791e31cfcb5638022f8cfc77c0cc89de771b5bb590397cbab3b5dc70583e3260"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000064.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30690,
+    "sha256": "ba008c7c55a25ff07cc1adda05a9000d57022ee3a4429f0b1e5c55e8995cde88"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000096.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30670,
+    "sha256": "8e97ae6668d85ddfab7afd20f6db8f160be7fa25a7e8e6c522a19c6547af71c9"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000128.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30683,
+    "sha256": "237892b242b1c8cb54b3ecc0f9bb094fa85023ecb3f7494cd7c97be12e65be21"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000160.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30693,
+    "sha256": "c95b7c04a7ff608466b4fd11d51d1c76ec627fb2dc8f267943d05198d28960e1"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000192.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30657,
+    "sha256": "8bfd0be5cd2c66357aa91874a7be031a033049362e09986df36d24f7fffca347"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000224.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30659,
+    "sha256": "63898425371c765cb733bce574b32fad27a80152ca375e4230a5645dc96ab149"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000256.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30677,
+    "sha256": "54005e7b19d27da68d03a8e478ec174f496d8d8423e09f8179173b8cbd874df4"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000288.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30682,
+    "sha256": "ad95582a896bef438c9d97f6927ea8aa183d923c1844575617c6484a0a33cefa"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000320.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30680,
+    "sha256": "72e0bffbbb8f9a80f356c64dbbb32b472782cb3769ea3d9723d53aad9faa754a"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000352.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30662,
+    "sha256": "14b205cbccb57e618b3c005254301d898c535c1e903813c28641d222e2c5ec6d"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000384.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30657,
+    "sha256": "59a90b60b29eddf5ff064eda4f78af62e7e0c795a39abf62520ec7e3800d99fb"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000416.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30668,
+    "sha256": "1fd52d9a8fbb01dcb78412109c4293025c9b26ecb4fd0a82146e936c2db34997"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000448.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30696,
+    "sha256": "1998945e635bd784953feafc7e69e04db71fdedbbaf978dd4b354b025d0186a3"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000480.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30686,
+    "sha256": "1f22ef131dc626c1a375dacfd0ca1864b7a044d4b0b5a41e0a29f8a519b7846c"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000512.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30680,
+    "sha256": "e0a1246a916df6d50b9f31f2d75050dba1ac38fbc387d08a0bd9daae9006aaae"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000544.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30659,
+    "sha256": "fce742217078906e9d351895eec2b5ba75bce8b8cb3276b14e5305116c4cc159"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000576.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30673,
+    "sha256": "2d27be4ebbe641179c0c286df165ea58e3637a10aea4221789c2ffb236fb4474"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000608.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30662,
+    "sha256": "46cdc5c8884a46d1f1cb92ddce9133c513925b226b4f80a523adf95473751d00"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000640.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30657,
+    "sha256": "b93260f0c715f3b4c57b6bc248da4d3351d2b1f00f8e6cd96ba678f2cf08ecb8"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000672.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30658,
+    "sha256": "3aa3abba3a84aeb213b9d1e87778360d480d0ed09a611fec8e2eafd4dec73560"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000704.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30675,
+    "sha256": "c3d556607d7c919b90ec83e7d9062d02737fc2b5b22b0d1185a85f9b60222c36"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000736.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30682,
+    "sha256": "e6f226ce8e9b4e341aa42a88ef05b5fbd1f44cba40e47946bfb476c6fde2d66c"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000768.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30702,
+    "sha256": "2e6dc5e4d08a9a1e19e096ff4d6c7783719f1c893c75c5277a14af0794a27810"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000800.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30702,
+    "sha256": "4a1530ed98eb89901dbbfea13823aafdb5940b0b80dc75cf65367d2dac4dcd28"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000832.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30689,
+    "sha256": "ac038b80ce65c8230edd4e2245a06716e681037eec56b0728dde836880b269b6"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000864.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30658,
+    "sha256": "8173695a191aa9437a1ac7260a409f2416ae302c0bffa16b9acb6108792c2d4f"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000896.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30651,
+    "sha256": "457b7bbec68874a8176ee911f51f00ad5d70006c3d322f5980187144e32727b0"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000928.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30711,
+    "sha256": "9be2e5362439d959c1c44e5a394a20bc26e8809f9177c0ff907f4ae71f2a48c9"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000960.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 30709,
+    "sha256": "57f9ff8d631f77010e15acd6d4d3f801c0bca9fcd7f1da34b59e0bfd12f2d72b"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/batch_000992.npz",
+    "archive": "AR-NCO-Data.zip",
+    "bytes": 9313,
+    "sha256": "80c6f531f5273ae097a65b5cd1f88a6d7bb2eab6d6b90587aafd0955b5d2994d"
+  },
+  {
+    "file": "results/generalization/tsp500/post_ar/per_instance.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 210004,
+    "sha256": "1eb55d9a27dfea787a3736af2c5b86525f479504c25c71089a183d96aa2f5c87"
+  },
+  {
+    "file": "results/overhead/README.md",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 345,
+    "sha256": "dc546ce45355f57215e337fd0a637df0335e8915ae94bf03bd7555ce3a624146"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 275,
+    "sha256": "fb51b84bd7467423f1513ea7079210b05380509df8789fb68c07d1c319099bed"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12802,
+    "sha256": "3baa8df5624455bebefbedb1a854fc5c747777748be4a2c78f7a61c6a254fdad"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "07f1d8dea71025af3fbd769a8a18738d51e77c3921c6c0708d655965997236da"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12815,
+    "sha256": "e78bc091afd9693d7d8733774c7e6cb58916f34e9627726589f28ebc08eebed7"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "15a75cfe4d938dad228af982b45e48745aa9c3139e3d7caeb29ba7d43208d31b"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12796,
+    "sha256": "4ea585617bfe7994c91675c081fe0e465a49a809e0f4745aefe35d56e5d7efa0"
+  },
+  {
+    "file": "results/training/AM_CVRP100_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "eb34ce9640b57d3c29e72ae2928ac7bb0513d354f52aa0a4daedce5e9cffb072"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11807,
+    "sha256": "f289e69d6a7da3a5bcb5be64bcb2a6091bab3ee67b72e84cda48288118b6bcfb"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "def00520cef97da12dae052d9e869225ee8d461836e90c5c441c80bb24518ac9"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11813,
+    "sha256": "1848fc0f32d2340330b5aa0b698cef3d359e9900281dd7d85e3c906bee2b100e"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "626f37c0ac51882794281cadaddaab00166bcc5018d285f2ef14bd03e1c271b3"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11802,
+    "sha256": "5dbe7b3a1af77563df1f96cc6783280f2fa225c13db073eaddebf1e4b6118bc8"
+  },
+  {
+    "file": "results/training/AM_CVRP20_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "615b8fc541087bddb781e125cf7ffebf4ed81761619d441857d4293fa3b966f7"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11280,
+    "sha256": "1207211752d56ce58522559e54e29baaac50cb5d73c596f9e3f1ab9ea72609ae"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "2c68f3244990be4893d2a92d9165a90f79b5be7d6968c27dc476d6605e8848d7"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 10241,
+    "sha256": "5b2c55180562790b39692b433f1d62b7a65c9a1b52b5935014074be4b98cf1e6"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "6d19d0729627a31e128d8fdbf30f1dbc784b0ff54a731eb17dd84189563c4040"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11007,
+    "sha256": "2cdf714956f55b9fad8ed92812ab130bf7c66f4397c113245ecd7e4f354efce8"
+  },
+  {
+    "file": "results/training/AM_CVRP50_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP100_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "6407cbf303a7febf9684fe0cdff5b2bdd8401e72f58e9f9d9d8616c75191068e"
+  },
+  {
+    "file": "results/training/AM_TSP100_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11857,
+    "sha256": "f6e1ead3fae94543ef88f416bdcd4045dd3768b6c89bfee249d44b7a7a272f4a"
+  },
+  {
+    "file": "results/training/AM_TSP100_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP100_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "bfa3a03c68a7dca380dba351cfab45e156494226362206a2c34e153c9c976336"
+  },
+  {
+    "file": "results/training/AM_TSP100_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11806,
+    "sha256": "21a69b46186ef286e21dc309f72aa0649de4134566697942d80ecccf66c1b280"
+  },
+  {
+    "file": "results/training/AM_TSP100_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP100_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "91ce53998f088a1e15c19e4dd8f914e33115aba10fc02640c1995c700a6719c0"
+  },
+  {
+    "file": "results/training/AM_TSP100_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11815,
+    "sha256": "534784bf53fa8cae54469607578c6ddd41af3704005cabf3ac1eb95c956ec46e"
+  },
+  {
+    "file": "results/training/AM_TSP100_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP20_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "1b85f7a66cac6c257c9ec7928595c636607d4943eea83ca6afdc0a4aa7804eb6"
+  },
+  {
+    "file": "results/training/AM_TSP20_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11825,
+    "sha256": "d30d6b0254445f0f0f30fa6a58b77ac5fc24e7ddd72247eaff787c93fa855d6c"
+  },
+  {
+    "file": "results/training/AM_TSP20_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP20_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 270,
+    "sha256": "ea6f4f7a3ff9ae394d47e9181ffedc0816ca04dcdc78099b6d5686a3bd2ff8c9"
+  },
+  {
+    "file": "results/training/AM_TSP20_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 897,
+    "sha256": "4b6089ce2431ff63c04d8eba391a905a7eb3e6b82bab7d21cd1245f67cda1eea"
+  },
+  {
+    "file": "results/training/AM_TSP20_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP20_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "831e135163f6cdca91cc3949b3826932ea00ef927a383ee3c26a50684a1cbe97"
+  },
+  {
+    "file": "results/training/AM_TSP20_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11812,
+    "sha256": "eed5e034b42c8bc971d5a0c4ceda97730c3031d49360125d4c331ee9323226cb"
+  },
+  {
+    "file": "results/training/AM_TSP20_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP50_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "aa917c7ac6567f39131cf73410b099cfa71c773cf55b1e97503db7927f8bded0"
+  },
+  {
+    "file": "results/training/AM_TSP50_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5870,
+    "sha256": "3461b428d82d8d5ec4585fad1e3f04fda0cc3b6591c48c0f8cab97035a27e2d6"
+  },
+  {
+    "file": "results/training/AM_TSP50_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP50_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 271,
+    "sha256": "bc0871ee0e363f382cd57479e321a7bbefe4aa4613bfd4ba265c83446558cbdc"
+  },
+  {
+    "file": "results/training/AM_TSP50_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5849,
+    "sha256": "6de059ef54537060eea0bc096f3f11107b3ff749ee3a6a204cdf9adb52d1e6d9"
+  },
+  {
+    "file": "results/training/AM_TSP50_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/AM_TSP50_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 271,
+    "sha256": "4d9ed169d765dbb53e64c9e620fc6cbdf8fbd6adda5fb4b08b3c6dbb3bcc42ce"
+  },
+  {
+    "file": "results/training/AM_TSP50_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5860,
+    "sha256": "973507b885da967fd82ab0a355870de59074b145e3775bd5fd65a3bbfb64d73d"
+  },
+  {
+    "file": "results/training/AM_TSP50_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3,
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 277,
+    "sha256": "c4d494bd35b47fab945649737f2556ce7152d8806da1138874e64c141941668a"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12812,
+    "sha256": "10bc303736be339f3a737930c97fd735f5d3d0c6232cb7afc9ce4dfcd700526a"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90244,
+    "sha256": "a012fc2de39c611d54f12a1b87b8fc400d435598bb9d1b2bb374cded29d881bc"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 276,
+    "sha256": "9912e928377c611b9bcd8b4753a35f195f8c9c95a754fb952662b1853887e08f"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12809,
+    "sha256": "dfc367562e348d1be60a0349c5af4b9c468f2feab7f788d7690143398b90ff1d"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90239,
+    "sha256": "dca2e0804998691f74edec07113c723dc829d21f34f2caa93096f1ed65dd8dda"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 467,
+    "sha256": "ddee0738da402e88c09c7bbdf065e4c75222f2d790cc1ce9208941b7fbbaeba2"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12831,
+    "sha256": "0483f794a56167a9ddfd3b62ab91b6be7dea54fcdfcb711194ecd71b16e464d8"
+  },
+  {
+    "file": "results/training/POMO_CVRP100_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90326,
+    "sha256": "c5b6807c8b274fc6bbc2c82aa594dcebb53e1a5f4138b6bbdfe1382f690db0c8"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 276,
+    "sha256": "86b7cc35452c36a75c09d279ad6e9307fd3d9ef28c6b94f91261748a974cfc40"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11787,
+    "sha256": "7c4dad1ad0cfac98fe827f89c11a0a76e7cda33f4454ce5c14a15403e28754f8"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 89213,
+    "sha256": "e14ca7493624ff79bc272c3bd8ac72c529d6076fd8df046389edc4954534ca3f"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 275,
+    "sha256": "da23f400dd434078c8b6f3f80692058bd047f3cd90e9d2348ea90d5658e00633"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11829,
+    "sha256": "bdd6783425ff7244adcc7f2144a9be2b5eb5b2ce57cf0ff3719384f3ca56dff5"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 89255,
+    "sha256": "a6d7d9aa25429629e75e382aaa93fac56bd5ba49c72ef182a00122df511ab501"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 275,
+    "sha256": "d72534e7ab4e460ad0257999335e49ea1872eb9159c0d825f24558f947acec53"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11792,
+    "sha256": "92f7d4922266b9f3fe2e36fc6b93d9838847eca2aefd6e126d6f3a1d2cc2683d"
+  },
+  {
+    "file": "results/training/POMO_CVRP20_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 89218,
+    "sha256": "be569d69a0f99c3e312a04215ef7b9f5a4487c97d6700c0d3f3d9667e19ab088"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 276,
+    "sha256": "d09d01ebf52bbfa9bbf590f11c0fad932c1e9e0940ea24dd11a83b1f66808d9f"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12806,
+    "sha256": "e02b0db29b9fbf0a6df627c2eb4ed66b53266c04ea588cdb4942fe7dcedb841c"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90234,
+    "sha256": "d8f737aee2e0de397df59294d27536581210edacfb87b4bc351158032ef16c31"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 275,
+    "sha256": "e609eed31ffb1cef94b51ca73bfb0811adc66d9bd51a9eb92d074ae3b294a6d3"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12797,
+    "sha256": "adb58349323910ec3b8c9051ee7dfdfea91f0a81724efb1af9f158b043848e31"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90225,
+    "sha256": "c18f4b99f0962dd3fa129e0e8255a9578d2facea78a1da430b7419022e5c8068"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 275,
+    "sha256": "d913832b4ac6c6ae6a220e0203c0bbe310184f57ed5dbdc7a4a4fca73aedf472"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12782,
+    "sha256": "4acad2d70f93b8f1297607afb2d333bf056cf30168a791870dc6a559dd06a4b3"
+  },
+  {
+    "file": "results/training/POMO_CVRP50_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90009,
+    "sha256": "04656c2f0aa4e8c97868897ef2712914d103ce0f081da587c1c1a73953811474"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 275,
+    "sha256": "68079db2846f53a3cc0cd2a1897dc7e2f28ede2a9cc4e4260e76aaaeec68615a"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 6564,
+    "sha256": "2aed0aca0bf35b6a8fd877dd455bf37effde353dad906b4d9ecababfdb4be54d"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 49673,
+    "sha256": "8a9c13eafca9876e286f26906336d3eaaea1861de6408f637b9cdd3bda0492f1"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Full_AR_Run01/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 280,
+    "sha256": "2982bccf1289adc259b3d6a3f25b524ac7497b728a6bd621386b113379fa3bc3"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Full_AR_Run01/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5846,
+    "sha256": "9c0ae80b90cd03a02fe556d766dafe4af982c2778a0849bcb60cc817699c7e25"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Full_AR_Run01/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44200,
+    "sha256": "945c970e50ffcfc6070e777891c3004b927f6465a381d9010f676f72a5de6af4"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Full_AR_Run02/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 280,
+    "sha256": "d7a61dda8f2bc72e1f989c3ec0458552040c328001a5c2ae47ede5ab6506df20"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Full_AR_Run02/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5858,
+    "sha256": "9089ff936a888227ba34dbb427a426877b1f53ade936577b283aca7a1f74c742"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Full_AR_Run02/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44284,
+    "sha256": "8b870ee684a3f02cf6eb294e9ddb62795e5a1bccad4097cfbf629ee4642d4035"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Post_AR_Run01/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 280,
+    "sha256": "41dde80649a4133d1a0f60739f1afeb0965e48f96f68d9095a849ba70f8dc407"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Post_AR_Run01/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1168,
+    "sha256": "b0acd783acd7b596771a4f27915aa478610e02ab9a6b88f8c7b54f96158ad63d"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Post_AR_Run01/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 9179,
+    "sha256": "bc6d6121a20370346e49aa060c2239712337259565ac898c1b3bfc6d804b2a83"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Post_AR_Run02/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 280,
+    "sha256": "1ae52ccbee30afc870e9f6b0a6df148ac969ab27bc9ff32168a9914bc164d465"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Post_AR_Run02/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3743,
+    "sha256": "45be5e4c999763c1e09690f5aa80d3690e199fce9d58f87dd3ccb96cce066187"
+  },
+  {
+    "file": "results/training/POMO_TSP100_Post_AR_Run02/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 27640,
+    "sha256": "115d15c58b5003e6f3206500d3ee84753addd916a20f314cb5d5144b4d630d43"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "d2f44fbd9a6c22076fadf41788f7c1cd0bec4fb5de484e1610aecf649fe5f2df"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5867,
+    "sha256": "1ea4a017813b24a89a2fc9126a4db08a071d210fd161424649626f55146093ac"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44210,
+    "sha256": "2d4871e66d79ada33770267048627a8b7824a7c43da07f34d446cb504d4e450f"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Full_AR_Run01/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 279,
+    "sha256": "42f3e9b052e382399a5edd1063a9ee5e909a95f2117aaa6b106a036a83121e96"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Full_AR_Run01/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5851,
+    "sha256": "3aac3680d4b6c53fd97a48a415c315380f3e0a917e759283aab3e200766a534e"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Full_AR_Run01/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44196,
+    "sha256": "a9733d9226f04ac6647b7c2b9e7b7f028a68d6c96f0b121fcc6044967dbb54c2"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Full_AR_Run02/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 279,
+    "sha256": "c726f2c81e78beb7ec3bc2829eb40313e39d4973b5ae4203c0d4da4f0d13c296"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Full_AR_Run02/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5831,
+    "sha256": "b0dd4ca590946cd23fec0d1bcb037e7277fd9739da14c95148bd6ce2329ccdee"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Full_AR_Run02/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44175,
+    "sha256": "3bb564b047cc87bb537b38ec689c3a0c00c7de5461ac9ffc1e0a709e0dcdabaf"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "12904e4a1ad572cfbd71ad0e9f7af1e76716a3a0ea94b475648588f23fd51094"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5868,
+    "sha256": "2e85b44a8f93be7aba2821ee4f135b6265bc4bd351ad6a2245ab79f9f157ac41"
+  },
+  {
+    "file": "results/training/POMO_TSP20_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44213,
+    "sha256": "31d4c8fa8b7840acc295889ef0e854ea2df0b190bb95f0b8afdce640d478d73b"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "2cee9d1ddabbf7612c9412fb5d98cde947b8ec48da2b04124cc9f411f58d37dc"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5877,
+    "sha256": "a98b2fe7c0d0f712fafdba6fb712ec3b08043984759b95708f13d3d8fe50aec1"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44266,
+    "sha256": "63adf8809bce92491f3c7d5a74f69a1543494a388ca63df76ce33015e5227e7e"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Full_AR_Run01/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 279,
+    "sha256": "e78e48982da3ba210b631f3419417e95f227e072aa0d8f5a704aeedfa75312bf"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Full_AR_Run01/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5851,
+    "sha256": "b16f9c4c609eabb3b68949758e883a99b918c7681320bbada16ff4c163d4d706"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Full_AR_Run01/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44279,
+    "sha256": "8368c486b7f77b52d491c310431167297297aac6a31f47399448212fd7787a81"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Full_AR_Run02/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 279,
+    "sha256": "a8ad5b23f7683fa3d0c6be0b7e780123ee47934a068d4266062b77b858bbe215"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Full_AR_Run02/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5859,
+    "sha256": "20cb9dead5a6aec8b5ffb4b4f27022485898255eea63d4d548b5890da83bfe33"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Full_AR_Run02/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44248,
+    "sha256": "b2d340ee057bdeecf0bdc720e4aac7945e9a29c939f110b06d964c9a33d1ba55"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "677ce994aaed2326a3733359ef1b2cb63f3ba72403e02c6e95ad711f6a4166df"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5840,
+    "sha256": "0584e4c50ab5aa8ea1a2baf59efb9255576762811e1adadf7715b17455339f16"
+  },
+  {
+    "file": "results/training/POMO_TSP50_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44268,
+    "sha256": "7f13e123c77c41efbdbcae5057809c58d5a95fecd18eb4a069a90d3d47988194"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 275,
+    "sha256": "05eff81f7da40de3eab002772221bbe93ca7c864ed341869d9475386ba2c810e"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12774,
+    "sha256": "9f5ddab2c05d8512ac55d62dad7d1af686e49e940595b0a546b1e1a124f07a98"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90211,
+    "sha256": "38c3cd007cc5f2df36e7371718153f3f1e4e1b923b463c1ebe45ed81fa11904a"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "b3245df92cc6ed9c5c60ee9cc0050c46300dd7edfaf71d66b4c54332a5234ba2"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12823,
+    "sha256": "673c9ba7e4ba757a27e037148e450a0b567e2385ac35dd6c7f45d6190ccfa83a"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90255,
+    "sha256": "044b38a99adb014ade2c86dcdab63421285d5bf2a0fb947471093fbb39041470"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "8e655bfbd1493303bfc200f474f55d7b17f880aa9c44bc94786343e0df8c29fd"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12818,
+    "sha256": "0084048caad6e7d0a890a183b2394dc11d8c6c6f02017ced313227e13566fbd6"
+  },
+  {
+    "file": "results/training/PO_CVRP100_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90249,
+    "sha256": "31928af19002b86b1ccae1905f43b1df00a7d77ed62754175ec64098e8ad9b48"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "b347cd3d15b8a85330bfa08d4fd22e4cbe750f1e10328cc441a022dcbb313432"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11812,
+    "sha256": "d89f16b4a6444dec172e3e9c63b2516dc039af755da2a6013591293eb6615951"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 89238,
+    "sha256": "da1ec89fb96f953d0ca484ffb5600a8df26858a50d0cb8ce40c36acf948c196f"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "8c38997439398e0cebbada75716070f2af7f011fb47295882666697deedd6595"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11812,
+    "sha256": "ae7fc1c5648d7b706576e48a0d64ff4fa8365139ff205c9f4eab487c610803cc"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 89238,
+    "sha256": "1e8da41a25f3a2b9292d5d1b0ba21977967c3bcf810f5f4394f71b1dfa77ce2c"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "f63aa972798869c81626b288a93729f9298b4291a3dd3c1f4f5335519533d440"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 11810,
+    "sha256": "8b583da9bade4e880d40602cf60178b7e07b48bd02e58f4f1701bbfd2ce5cbc8"
+  },
+  {
+    "file": "results/training/PO_CVRP20_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 89236,
+    "sha256": "db21bb98b0f7829caf85912131ad30aa5fc8121a1584994839c0fee45708cb24"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 274,
+    "sha256": "6b66f7e00c46a415f2782ba5663fb8c6b47b314bf46793bddb1749cd0f6e1847"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12804,
+    "sha256": "2922471eb6d4d8be88081a6e6ba41c991d3fdf0d203cc15a202a46820e9cd9d1"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90232,
+    "sha256": "e201c1f219b54de1947b6312fbfb922b18e68a68c6a76603333a6dc98d634bdb"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "be8bc477b2284c2c5f3dfdbec93cf07dc4b2326767251adf35edd5fb92749f97"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12808,
+    "sha256": "9a77dc49718e2e5f28bbbe749bca5b4dc251daa4e0f6c006d267f545828197ea"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90236,
+    "sha256": "c7df748081b54696376d7ce1195eaa97439cbf899622fa05dcc4da4ad498c767"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "00d924b8eb68c02422c65acee84de64af827711771490f4cb99348361182a12d"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 12798,
+    "sha256": "2523cda094551c88a453cce1c6af027320bc56edf59406bb3d40905b31bfdf1b"
+  },
+  {
+    "file": "results/training/PO_CVRP50_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 90052,
+    "sha256": "5d650663d3eb0fcc8338b6a40e7d27251a1cc4f90270f18da1dfadc973df61e8"
+  },
+  {
+    "file": "results/training/PO_TSP100_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 273,
+    "sha256": "1cfffd565b11bc29f3c31d5add7ab7c6a045fa2e7702e9c3e90d9b29fcd982a5"
+  },
+  {
+    "file": "results/training/PO_TSP100_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5857,
+    "sha256": "8b1172b07767507eb411d31ba5571ec87dc00a3bbc479eb7ca263d046a566b88"
+  },
+  {
+    "file": "results/training/PO_TSP100_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44282,
+    "sha256": "4d64e9da7508f11f4f6f2e138e57d7eb7eb459cd045a806374986ea6c5937e7a"
+  },
+  {
+    "file": "results/training/PO_TSP100_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "c621a9266b2b18403ea533bdf187757633d48464219711cdc719ea3bdbe6f05c"
+  },
+  {
+    "file": "results/training/PO_TSP100_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5843,
+    "sha256": "3bde680a9fee945061111570163cb4411381d440543c7b6db0fdcb0c934033a6"
+  },
+  {
+    "file": "results/training/PO_TSP100_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44197,
+    "sha256": "a27403661b3ea17e9ee97aacb0477babe5f8b643be3b3048070e6de69e234765"
+  },
+  {
+    "file": "results/training/PO_TSP100_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "ba552b03fc751e4d812379422148071aeea7e8ba4f0759850dd9961d194b4907"
+  },
+  {
+    "file": "results/training/PO_TSP100_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5841,
+    "sha256": "9bdcba62761318bbfceae0c3305590462e4b48873073ec5a13ad04998774ce0f"
+  },
+  {
+    "file": "results/training/PO_TSP100_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44189,
+    "sha256": "e4ec4617e4b0e67a5a1246ed07bceba8263458833fdcb42020380c9902ad85cc"
+  },
+  {
+    "file": "results/training/PO_TSP20_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "08ca4b3503473bca92010724c4f50b52c68def36a8b73e209091e81b5783fa8a"
+  },
+  {
+    "file": "results/training/PO_TSP20_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5857,
+    "sha256": "bf19684e685d4296c648ad3a380941bc52fd20f858ab0a620c269408f2725a8a"
+  },
+  {
+    "file": "results/training/PO_TSP20_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44184,
+    "sha256": "1aec59ef728adee215ac29e6a73c2c0602894bc81e1a8a06d599e00d07eada43"
+  },
+  {
+    "file": "results/training/PO_TSP20_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 271,
+    "sha256": "15d544c7b3e2af51b1dbd35db8d4731de4d7ab614a472addf3ef412c22808813"
+  },
+  {
+    "file": "results/training/PO_TSP20_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5825,
+    "sha256": "f1d0e1144b508c3bcaf6f17d52622ec4605396330aac1878160f77f084449eca"
+  },
+  {
+    "file": "results/training/PO_TSP20_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44170,
+    "sha256": "072d6112ba5fa4fb897e85bc0174bc500c69ae35c6900492abe3086e4dcba72c"
+  },
+  {
+    "file": "results/training/PO_TSP20_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 271,
+    "sha256": "2a0060ba57b8f563301a2e53807f0368786ba94f6f01a6dab7cf619892ef695a"
+  },
+  {
+    "file": "results/training/PO_TSP20_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5872,
+    "sha256": "60962996b6afb8b93dcc9517590260276f4695ebb30455a966635595253ef36c"
+  },
+  {
+    "file": "results/training/PO_TSP20_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44217,
+    "sha256": "910eaf421693b3280bacc9e6184f596fd5caf80a261bb9c963dbe2fec11184d6"
+  },
+  {
+    "file": "results/training/PO_TSP50_Baseline/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 272,
+    "sha256": "561ce529cce278ee45c7b42683c0148d9469c1a4ca569e8380acd7cc6b6e959b"
+  },
+  {
+    "file": "results/training/PO_TSP50_Baseline/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5869,
+    "sha256": "ee32ec662e0d5bf11bb785879dbe35bfc7d7d2d3306dca3ce6bd2c5110b97356"
+  },
+  {
+    "file": "results/training/PO_TSP50_Baseline/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44291,
+    "sha256": "a41c10842c3d412adabd7ca1e2d002212baa5290af9e8874874895ad1dd41f1e"
+  },
+  {
+    "file": "results/training/PO_TSP50_Full_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 271,
+    "sha256": "764faf40620026fe5bce5126d7f65fe35922f9b2e5adffb42f3a008bca3eb0f4"
+  },
+  {
+    "file": "results/training/PO_TSP50_Full_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5833,
+    "sha256": "25c0551545983bf8d9b84784787f93aeb6198296885006c0ae96c05ebdcbba7e"
+  },
+  {
+    "file": "results/training/PO_TSP50_Full_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 43970,
+    "sha256": "1288f0a25fd5cc13c09f37a1a7f8e340fcb5ba0330cc3dca78f831488cab2271"
+  },
+  {
+    "file": "results/training/PO_TSP50_Post_AR/curve_metadata.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 271,
+    "sha256": "7bfb62153851b8cf0c51adda00ce7b81c385dfe182d8f9b4b3307365f3f3f31c"
+  },
+  {
+    "file": "results/training/PO_TSP50_Post_AR/learning_curve.csv",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 5845,
+    "sha256": "9cb12d6891bd0786314c78a8d81b1d00fa77501a3b43d3f7127405d4fb5d0e15"
+  },
+  {
+    "file": "results/training/PO_TSP50_Post_AR/validation_observations.json",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 44235,
+    "sha256": "b811cf1e4e464df61339547fab39ff7b4314693c043e5f41a3ff4bb24c568b77"
+  },
+  {
+    "file": "scripts/analyze_attention_weights.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 23105,
+    "sha256": "c0fd3a6fbd6e6602eb8d6b7d246d9a9ee34b4d657ba680cb12004e27ef8ac14d"
+  },
+  {
+    "file": "scripts/check_checkpoints.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 693,
+    "sha256": "a72972d2c2e49dc6dadf6c0b88ec1b3de13954338ff0556b092f79a57bc2a735"
+  },
+  {
+    "file": "scripts/evaluate.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 7663,
+    "sha256": "e17db2493254fcac3998db615e3b6c3231588e66f0e1eb95da2397cef8a8d821"
+  },
+  {
+    "file": "scripts/generalization.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 963,
+    "sha256": "acb296d7f0acd525a038c59ade894c98efb0beeaf36d7cc0bc71048b5f67ed43"
+  },
+  {
+    "file": "scripts/lkh/export_validation_to_tsplib.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3790,
+    "sha256": "d2c4a988656c275b5c112a2a134137545521e6b9e61c3b60f5a09047cdd00a8d"
+  },
+  {
+    "file": "scripts/lkh/run_lkh_batch.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 8230,
+    "sha256": "a2a541903385e0fd29cb64820f737ad002f6c01f547af065ce2723dfb0ba45fe"
+  },
+  {
+    "file": "scripts/lkh_reference.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 2906,
+    "sha256": "77169af3f30d333c7e7f9673af75e6eb72721e5c6ced0ab69736a1d04de24690"
+  },
+  {
+    "file": "scripts/plot_attention.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 18895,
+    "sha256": "bb9329109afe179d48c870f2398d6e3fa227450009170cfc11c4078b609a7cd3"
+  },
+  {
+    "file": "scripts/plot_learning_curves.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 1874,
+    "sha256": "1a82daf5cfdf2cb5a80f91c236dc093c4e3fdee13e30243f95dd2bc51288c1a8"
+  },
+  {
+    "file": "scripts/verify_artifacts.py",
+    "archive": "AR-NCO-GitHub.zip",
+    "bytes": 3656,
+    "sha256": "df3fdd7598925bc1e4d62616265abb61c09df4e22adfa202bdd4ce5cd04d36d3"
+  }
+]

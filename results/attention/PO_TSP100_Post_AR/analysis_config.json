@@ -1,0 +1,27 @@
+{
+  "model_type": "post_ar",
+  "model_name": "Post AR",
+  "checkpoint_path": "checkpoints/PO/TSP100/PO_TSP100_Post_AR/weights.pt",
+  "test_data_path": "code/POMO_PO/POMO/data/validation/tsp/uniform_size_100_seed_12345_tsp.pt",
+  "test_data_sha256": "c2553cc34073c6a1293b6c032f84c96f894509230f93a604277e5c3a02b2aec7",
+  "num_layers": 6,
+  "num_sources": 7,
+  "source_names": [
+    "Input",
+    "Layer 1",
+    "Layer 2",
+    "Layer 3",
+    "Layer 4",
+    "Layer 5",
+    "Layer 6"
+  ],
+  "batch_size": 128,
+  "num_instances": 10000,
+  "device": "cuda",
+  "inference_time_s": 9.234945297241211,
+  "max_abs_weight_error": 2.384185791015625e-07,
+  "git_commit": "unknown",
+  "original_checkpoint_sha256": "3a2f7f25c195bd9bde944a215922663c725fcd1cbe74c83f9778aef005ea99a5",
+  "checkpoint_sha256": "79d01651911d44485b7645df83e0cd3cb5a534e9a4d6909354706caa4cf87724",
+  "tensor_identical_to_recorded_checkpoint": true
+}

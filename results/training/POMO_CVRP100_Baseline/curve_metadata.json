@@ -1,0 +1,7 @@
+{
+  "group": "POMO_CVRP100_Baseline",
+  "conflicting_epochs": {},
+  "source_log_sha256": "23618e502b7b4647124b19d64b81f0143a80560f44becb4d545966855ff0a746",
+  "source_parser": "retained analysis/plot_learning_curves.py points(); no smoothing or interpolation",
+  "rows": 1000
+}

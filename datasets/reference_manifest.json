@@ -1,0 +1,90 @@
+[
+  {
+    "file": "datasets/references/TSP/lkh_summary_size_20.json",
+    "format": "json",
+    "instances": null,
+    "sha256": "b4727b228aa8557e86ef0f5d3de50fd1025232643cf6551615869af9e6375945",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/TSP/lkh_summary_size_50.json",
+    "format": "json",
+    "instances": null,
+    "sha256": "289de48b50fdcf0aad3c55811d690763ea811fb3a074f47ec9494d136357f789",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_100.pt",
+    "format": "pt",
+    "instances": null,
+    "sha256": "36c55b82d039d31b042c46d09538f1e8c19e18c2936c7a85687498090130bd11",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_20.json",
+    "format": "json",
+    "instances": 10000,
+    "sha256": "adc0ecdaffd56e0481068a8f252820e1a0d2e2e0b00e51e4afd45d2e3c3d6360",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_20.pt",
+    "format": "pt",
+    "instances": null,
+    "sha256": "4cd576b426b2ea099349e75d9550ef1852c5653294dea327033df239fad1a327",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_50.json",
+    "format": "json",
+    "instances": 10000,
+    "sha256": "25c6e688e12b1d400a68ee46e2f617c7b6c9ddfacee07554c1aaf8089e2b48e4",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/TSP/ref_lengths_lkh_size_50.pt",
+    "format": "pt",
+    "instances": null,
+    "sha256": "7ab834a7b2ebfb657185972435610e4ba7d88aebd3807818065c39756d55f4a2",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/TSP/size_100/ref_lengths_lkh.json",
+    "format": "json",
+    "instances": 10000,
+    "sha256": "c0676744084f25bac9497b73828292f0885c582c797882300105ce3f3e2aef25",
+    "source": "retained LKH reference records",
+    "seed": null
+  },
+  {
+    "file": "datasets/references/generalization/tsp100.json",
+    "format": "json",
+    "instances": 1000,
+    "sha256": "55be87a26af358544c95288e7625328bcf8c9fc75c329148a8c6f870783168f5",
+    "source": "retained LKH reference records",
+    "seed": 20261106
+  },
+  {
+    "file": "datasets/references/generalization/tsp200.json",
+    "format": "json",
+    "instances": 1000,
+    "sha256": "76ad3008d52d36d0fb329b4959a99064a7372d85eed25b3eb3aef97fb7ec618a",
+    "source": "retained LKH reference records",
+    "seed": 20261106
+  },
+  {
+    "file": "datasets/references/generalization/tsp500.json",
+    "format": "json",
+    "instances": 1000,
+    "sha256": "412860bfb9a2a73f5e06e7c917f211efe048d4e49a7e43d14c3f301c3e16e00d",
+    "source": "retained LKH reference records",
+    "seed": 20261106
+  }
+]

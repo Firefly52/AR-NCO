@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+outputs/
+experiments/new_runs/
+code/AM/outputs/
+code/AM/logs/
+*.log
+.DS_Store
+
+# Release archives and extracted research tensors are distributed as assets.
+*.zip
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Local environments, credentials, and editor files.
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Internal working directories and submission material.
+internal_reports/
+reproduction_reports/
+raw_workdir/
+IEEE_TAI/
+submission/

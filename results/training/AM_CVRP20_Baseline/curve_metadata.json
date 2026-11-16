@@ -1,0 +1,7 @@
+{
+  "group": "AM_CVRP20_Baseline",
+  "conflicting_epochs": {},
+  "source_log_sha256": "2a9a0f8eb70fa2a5abfcbe4a3524b0b84a0dae671d971af8d6d29ad52d3900a5",
+  "source_parser": "retained analysis/plot_learning_curves.py points(); no smoothing or interpolation",
+  "rows": 1000
+}

@@ -1,0 +1,5 @@
+{
+  "baseline": "POMO_TSP100_Baseline_Epoch500",
+  "post_ar": "POMO_TSP100_Post_AR_Run02",
+  "full_ar": "POMO_TSP100_Full_AR_Run01"
+}

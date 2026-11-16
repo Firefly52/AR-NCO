@@ -1,0 +1,4 @@
+method,saved_epoch,train_size,optimizer_updates,training_history_objectives,missing_completed_epoch_stats
+baseline,500,100,781500,rl_loss,[]
+post_ar,500,100,780350,po_loss -> rl_loss,[161]
+full_ar,500,100,781374,rl_loss,[332]

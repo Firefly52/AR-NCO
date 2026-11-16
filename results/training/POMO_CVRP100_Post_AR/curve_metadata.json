@@ -1,0 +1,20 @@
+{
+  "group": "POMO_CVRP100_Post_AR",
+  "conflicting_epochs": {
+    "173": [
+      {
+        "score": 16.0583,
+        "source": 0,
+        "line": 3508
+      },
+      {
+        "score": 16.0865,
+        "source": 0,
+        "line": 3536
+      }
+    ]
+  },
+  "source_log_sha256": "98895db2c22ac28d6b0e634382edaf15847f81ef2690aec4ad32e760095b3388",
+  "source_parser": "retained analysis/plot_learning_curves.py points(); no smoothing or interpolation",
+  "rows": 1001
+}
